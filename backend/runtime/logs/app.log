@@ -7022,3 +7022,107 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1416928431.685
     'REQUEST_TIME' => 1416928431
 ]
+2014-11-26 13:01:56 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'yii'@'localhost' (using password: YES)' in /data/htdocs/stone/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /data/htdocs/stone/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=127....', 'yii', 'yii2014', NULL)
+#1 /data/htdocs/stone/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /data/htdocs/stone/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php(208): yii\db\Connection->getSlavePdo()
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php(813): yii\db\Command->prepare(true)
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveQuery.php(285): yii\db\Query->one(NULL)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveRecord.php(180): yii\db\ActiveQuery->one()
+#10 /data/htdocs/stone/vendor/yiisoft/yii2/db/BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#11 /data/htdocs/stone/common/models/User.php(84): yii\db\BaseActiveRecord::findOne(Array)
+#12 /data/htdocs/stone/vendor/yiisoft/yii2/web/User.php(613): common\models\User::findIdentity(1)
+#13 /data/htdocs/stone/vendor/yiisoft/yii2/web/User.php(175): yii\web\User->renewAuthStatus()
+#14 /data/htdocs/stone/vendor/yiisoft/yii2/web/User.php(345): yii\web\User->getIdentity()
+#15 /data/htdocs/stone/vendor/yiisoft/yii2/filters/AccessRule.php(149): yii\web\User->getIsGuest()
+#16 /data/htdocs/stone/vendor/yiisoft/yii2/filters/AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#17 /data/htdocs/stone/vendor/yiisoft/yii2/filters/AccessControl.php(117): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#18 /data/htdocs/stone/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#19 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#20 /data/htdocs/stone/vendor/yiisoft/yii2/base/Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#21 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#22 /data/htdocs/stone/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#23 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#24 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#25 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#26 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#28 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'yii'@'localhost' (using password: YES)' in /data/htdocs/stone/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /data/htdocs/stone/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /data/htdocs/stone/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php(208): yii\db\Connection->getSlavePdo()
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php(813): yii\db\Command->prepare(true)
+#4 /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveQuery.php(285): yii\db\Query->one(NULL)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveRecord.php(180): yii\db\ActiveQuery->one()
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/db/BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#9 /data/htdocs/stone/common/models/User.php(84): yii\db\BaseActiveRecord::findOne(Array)
+#10 /data/htdocs/stone/vendor/yiisoft/yii2/web/User.php(613): common\models\User::findIdentity(1)
+#11 /data/htdocs/stone/vendor/yiisoft/yii2/web/User.php(175): yii\web\User->renewAuthStatus()
+#12 /data/htdocs/stone/vendor/yiisoft/yii2/web/User.php(345): yii\web\User->getIdentity()
+#13 /data/htdocs/stone/vendor/yiisoft/yii2/filters/AccessRule.php(149): yii\web\User->getIsGuest()
+#14 /data/htdocs/stone/vendor/yiisoft/yii2/filters/AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#15 /data/htdocs/stone/vendor/yiisoft/yii2/filters/AccessControl.php(117): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#16 /data/htdocs/stone/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#17 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#18 /data/htdocs/stone/vendor/yiisoft/yii2/base/Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#19 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#20 /data/htdocs/stone/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#21 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#22 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#23 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#24 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#26 {main}
+Additional Information:
+
+2014-11-26 13:01:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '007hjirt8453l4rfcgjp0003o0'
+    '_identity' => '6710c12f5879ada03d897233c6b387d8996a8eb7a87dc0649f81f1fab880517cs:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+    '_csrf' => '163a1ac4f62c038bbfa94d57cffe159b36fad545e86f4124a35f951dcc0ce709s:32:\"jnytrEMKPu51bG4ARGlB1vIVtjr8o_SB\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=007hjirt8453l4rfcgjp0003o0; _identity=6710c12f5879ada03d897233c6b387d8996a8eb7a87dc0649f81f1fab880517cs%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B; _csrf=163a1ac4f62c038bbfa94d57cffe159b36fad545e86f4124a35f951dcc0ce709s%3A32%3A%22jnytrEMKPu51bG4ARGlB1vIVtjr8o_SB%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '58951'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin.php'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417006916.115
+    'REQUEST_TIME' => 1417006916
+]

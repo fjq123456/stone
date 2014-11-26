@@ -26,6 +26,10 @@ return [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
         ],
+        'request' => [
+            // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
+            'cookieValidationKey' => 'lWM0aQcFIGRkcL83YRIeCxIP3D9832jm',
+        ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
