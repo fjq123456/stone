@@ -1,0 +1,534 @@
+2014-11-25 12:52:57 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Warning 'yii\base\ErrorException' with message 'mkdir(): File exists' 
+
+in /data/htdocs/advanced/vendor/yiisoft/yii2-debug/LogTarget.php:48
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'mkdir(): File e...', '/data/htdocs/ad...', 48, Array)
+#1 /data/htdocs/advanced/vendor/yiisoft/yii2-debug/LogTarget.php(48): mkdir('/data/htdocs/ad...')
+#2 /data/htdocs/advanced/vendor/yiisoft/yii2-debug/LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 /data/htdocs/advanced/vendor/yiisoft/yii2/log/Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 /data/htdocs/advanced/vendor/yiisoft/yii2/log/Logger.php(166): yii\log\Dispatcher->dispatch(Array, true)
+#5 [internal function]: yii\log\Logger->flush(true)
+#6 {main}
+2014-11-25 12:52:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'pma_lang' => 'zh_CN'
+    'pma_collation_connection' => 'utf8_general_ci'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.adv.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'pma_lang=zh_CN; pma_collation_connection=utf8_general_ci'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.adv.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/advanced/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/advanced/web/index.php'
+    'REMOTE_PORT' => '64891'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1416919977.024
+    'REQUEST_TIME' => 1416919977
+]
+2014-11-25 12:53:00 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/advanced/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/advanced/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/advanced/frontend/views/site/login.php:20
+    in /data/htdocs/advanced/frontend/controllers/SiteController.php:85
+2014-11-25 12:53:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'pma_lang' => 'zh_CN'
+    'pma_collation_connection' => 'utf8_general_ci'
+    'PHPSESSID' => '52qs7guk37894p2ik8sb808pk0'
+    '_csrf' => '42dc967237628a6c54b11943516da676a6ac0a22954a84c040d6ce2a92995a9es:32:\"ENY4rz2QfHYQWW8bT5faT3SW9PGNgLeN\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.adv.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.adv.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'pma_lang=zh_CN; pma_collation_connection=utf8_general_ci; PHPSESSID=52qs7guk37894p2ik8sb808pk0; _csrf=42dc967237628a6c54b11943516da676a6ac0a22954a84c040d6ce2a92995a9es%3A32%3A%22ENY4rz2QfHYQWW8bT5faT3SW9PGNgLeN%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.adv.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/advanced/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/advanced/web/index.php'
+    'REMOTE_PORT' => '64893'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1416919980.761
+    'REQUEST_TIME' => 1416919980
+]
+2014-11-25 12:53:04 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/advanced/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/advanced/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/advanced/frontend/controllers/SiteController.php:80
+2014-11-25 12:53:05 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(732): yii\db\Schema->quoteValue('admin')
+#6 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Command.php(164): yii\db\Connection->quoteValue('admin')
+#7 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Command.php(790): yii\db\Command->getRawSql()
+#8 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#9 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#10 /data/htdocs/advanced/vendor/yiisoft/yii2/db/ActiveQuery.php(285): yii\db\Query->one(NULL)
+#11 /data/htdocs/advanced/vendor/yiisoft/yii2/db/ActiveRecord.php(180): yii\db\ActiveQuery->one()
+#12 /data/htdocs/advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#13 /data/htdocs/advanced/common/models/User.php(103): yii\db\BaseActiveRecord::findOne(Array)
+#14 /data/htdocs/advanced/common/models/LoginForm.php(72): common\models\User::findByUsername('admin')
+#15 /data/htdocs/advanced/common/models/LoginForm.php(43): common\models\LoginForm->getUser()
+#16 [internal function]: common\models\LoginForm->validatePassword('password', NULL)
+#17 /data/htdocs/advanced/vendor/yiisoft/yii2/validators/InlineValidator.php(67): call_user_func(Array, 'password', NULL)
+#18 /data/htdocs/advanced/vendor/yiisoft/yii2/validators/Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#19 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Model.php(333): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#20 /data/htdocs/advanced/common/models/LoginForm.php(57): yii\base\Model->validate()
+#21 /data/htdocs/advanced/frontend/controllers/SiteController.php(80): common\models\LoginForm->login()
+#22 [internal function]: frontend\controllers\SiteController->actionLogin()
+#23 /data/htdocs/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#26 /data/htdocs/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/login', Array)
+#27 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /data/htdocs/advanced/web/index.php(18): yii\base\Application->run()
+#29 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(732): yii\db\Schema->quoteValue('admin')
+#4 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Command.php(164): yii\db\Connection->quoteValue('admin')
+#5 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Command.php(790): yii\db\Command->getRawSql()
+#6 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#8 /data/htdocs/advanced/vendor/yiisoft/yii2/db/ActiveQuery.php(285): yii\db\Query->one(NULL)
+#9 /data/htdocs/advanced/vendor/yiisoft/yii2/db/ActiveRecord.php(180): yii\db\ActiveQuery->one()
+#10 /data/htdocs/advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#11 /data/htdocs/advanced/common/models/User.php(103): yii\db\BaseActiveRecord::findOne(Array)
+#12 /data/htdocs/advanced/common/models/LoginForm.php(72): common\models\User::findByUsername('admin')
+#13 /data/htdocs/advanced/common/models/LoginForm.php(43): common\models\LoginForm->getUser()
+#14 [internal function]: common\models\LoginForm->validatePassword('password', NULL)
+#15 /data/htdocs/advanced/vendor/yiisoft/yii2/validators/InlineValidator.php(67): call_user_func(Array, 'password', NULL)
+#16 /data/htdocs/advanced/vendor/yiisoft/yii2/validators/Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#17 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Model.php(333): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#18 /data/htdocs/advanced/common/models/LoginForm.php(57): yii\base\Model->validate()
+#19 /data/htdocs/advanced/frontend/controllers/SiteController.php(80): common\models\LoginForm->login()
+#20 [internal function]: frontend\controllers\SiteController->actionLogin()
+#21 /data/htdocs/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#22 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#23 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#24 /data/htdocs/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/login', Array)
+#25 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 /data/htdocs/advanced/web/index.php(18): yii\base\Application->run()
+#27 {main}
+Additional Information:
+
+2014-11-25 12:53:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'MjNfNXREMGx3fQYBBj4CPVR7BmQjEwgOZgY5VCB3YzsLYxh7EwhVIg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'admin'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'pma_lang' => 'zh_CN'
+    'pma_collation_connection' => 'utf8_general_ci'
+    'PHPSESSID' => '52qs7guk37894p2ik8sb808pk0'
+    '_csrf' => '42dc967237628a6c54b11943516da676a6ac0a22954a84c040d6ce2a92995a9es:32:\"ENY4rz2QfHYQWW8bT5faT3SW9PGNgLeN\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.adv.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '196'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://local.adv.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://local.adv.com/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'pma_lang=zh_CN; pma_collation_connection=utf8_general_ci; PHPSESSID=52qs7guk37894p2ik8sb808pk0; _csrf=42dc967237628a6c54b11943516da676a6ac0a22954a84c040d6ce2a92995a9es%3A32%3A%22ENY4rz2QfHYQWW8bT5faT3SW9PGNgLeN%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.adv.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/advanced/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/advanced/web/index.php'
+    'REMOTE_PORT' => '64894'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1416919984.844
+    'REQUEST_TIME' => 1416919984
+]
+2014-11-25 12:55:20 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/advanced/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/advanced/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/advanced/frontend/controllers/SiteController.php:80
+2014-11-25 12:55:20 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(732): yii\db\Schema->quoteValue('admin')
+#6 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Command.php(164): yii\db\Connection->quoteValue('admin')
+#7 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Command.php(790): yii\db\Command->getRawSql()
+#8 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#9 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#10 /data/htdocs/advanced/vendor/yiisoft/yii2/db/ActiveQuery.php(285): yii\db\Query->one(NULL)
+#11 /data/htdocs/advanced/vendor/yiisoft/yii2/db/ActiveRecord.php(180): yii\db\ActiveQuery->one()
+#12 /data/htdocs/advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#13 /data/htdocs/advanced/common/models/User.php(103): yii\db\BaseActiveRecord::findOne(Array)
+#14 /data/htdocs/advanced/common/models/LoginForm.php(72): common\models\User::findByUsername('admin')
+#15 /data/htdocs/advanced/common/models/LoginForm.php(43): common\models\LoginForm->getUser()
+#16 [internal function]: common\models\LoginForm->validatePassword('password', NULL)
+#17 /data/htdocs/advanced/vendor/yiisoft/yii2/validators/InlineValidator.php(67): call_user_func(Array, 'password', NULL)
+#18 /data/htdocs/advanced/vendor/yiisoft/yii2/validators/Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#19 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Model.php(333): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#20 /data/htdocs/advanced/common/models/LoginForm.php(57): yii\base\Model->validate()
+#21 /data/htdocs/advanced/frontend/controllers/SiteController.php(80): common\models\LoginForm->login()
+#22 [internal function]: frontend\controllers\SiteController->actionLogin()
+#23 /data/htdocs/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#24 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#26 /data/htdocs/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/login', Array)
+#27 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /data/htdocs/advanced/web/index.php(18): yii\base\Application->run()
+#29 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Connection.php(732): yii\db\Schema->quoteValue('admin')
+#4 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Command.php(164): yii\db\Connection->quoteValue('admin')
+#5 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Command.php(790): yii\db\Command->getRawSql()
+#6 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 /data/htdocs/advanced/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#8 /data/htdocs/advanced/vendor/yiisoft/yii2/db/ActiveQuery.php(285): yii\db\Query->one(NULL)
+#9 /data/htdocs/advanced/vendor/yiisoft/yii2/db/ActiveRecord.php(180): yii\db\ActiveQuery->one()
+#10 /data/htdocs/advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#11 /data/htdocs/advanced/common/models/User.php(103): yii\db\BaseActiveRecord::findOne(Array)
+#12 /data/htdocs/advanced/common/models/LoginForm.php(72): common\models\User::findByUsername('admin')
+#13 /data/htdocs/advanced/common/models/LoginForm.php(43): common\models\LoginForm->getUser()
+#14 [internal function]: common\models\LoginForm->validatePassword('password', NULL)
+#15 /data/htdocs/advanced/vendor/yiisoft/yii2/validators/InlineValidator.php(67): call_user_func(Array, 'password', NULL)
+#16 /data/htdocs/advanced/vendor/yiisoft/yii2/validators/Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#17 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Model.php(333): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#18 /data/htdocs/advanced/common/models/LoginForm.php(57): yii\base\Model->validate()
+#19 /data/htdocs/advanced/frontend/controllers/SiteController.php(80): common\models\LoginForm->login()
+#20 [internal function]: frontend\controllers\SiteController->actionLogin()
+#21 /data/htdocs/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#22 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#23 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#24 /data/htdocs/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/login', Array)
+#25 /data/htdocs/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 /data/htdocs/advanced/web/index.php(18): yii\base\Application->run()
+#27 {main}
+Additional Information:
+
+2014-11-25 12:55:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'MjNfNXREMGx3fQYBBj4CPVR7BmQjEwgOZgY5VCB3YzsLYxh7EwhVIg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'admin'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'pma_lang' => 'zh_CN'
+    'pma_collation_connection' => 'utf8_general_ci'
+    'PHPSESSID' => '52qs7guk37894p2ik8sb808pk0'
+    '_csrf' => '42dc967237628a6c54b11943516da676a6ac0a22954a84c040d6ce2a92995a9es:32:\"ENY4rz2QfHYQWW8bT5faT3SW9PGNgLeN\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.adv.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '196'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://local.adv.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://local.adv.com/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'pma_lang=zh_CN; pma_collation_connection=utf8_general_ci; PHPSESSID=52qs7guk37894p2ik8sb808pk0; _csrf=42dc967237628a6c54b11943516da676a6ac0a22954a84c040d6ce2a92995a9es%3A32%3A%22ENY4rz2QfHYQWW8bT5faT3SW9PGNgLeN%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.adv.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/advanced/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/advanced/web/index.php'
+    'REMOTE_PORT' => '64991'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1416920120.643
+    'REQUEST_TIME' => 1416920120
+]
+2014-11-25 12:55:53 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/advanced/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/advanced/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/advanced/frontend/controllers/SiteController.php:80
+2014-11-25 12:55:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'MjNfNXREMGx3fQYBBj4CPVR7BmQjEwgOZgY5VCB3YzsLYxh7EwhVIg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'admin'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'pma_lang' => 'zh_CN'
+    'pma_collation_connection' => 'utf8_general_ci'
+    'PHPSESSID' => '52qs7guk37894p2ik8sb808pk0'
+    '_csrf' => '42dc967237628a6c54b11943516da676a6ac0a22954a84c040d6ce2a92995a9es:32:\"ENY4rz2QfHYQWW8bT5faT3SW9PGNgLeN\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.adv.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '196'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://local.adv.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://local.adv.com/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'pma_lang=zh_CN; pma_collation_connection=utf8_general_ci; PHPSESSID=52qs7guk37894p2ik8sb808pk0; _csrf=42dc967237628a6c54b11943516da676a6ac0a22954a84c040d6ce2a92995a9es%3A32%3A%22ENY4rz2QfHYQWW8bT5faT3SW9PGNgLeN%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.adv.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/advanced/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/advanced/web/index.php'
+    'REMOTE_PORT' => '64996'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1416920153.383
+    'REQUEST_TIME' => 1416920153
+]
+2014-11-25 12:55:56 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/advanced/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/advanced/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/advanced/frontend/controllers/SiteController.php:80
+2014-11-25 12:55:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'dUZ4TWlDY0QwCCF5GzlRFRMOIRw.FFsmIXMeLD1wMBNMFj8DDg8GCg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'admin'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'pma_lang' => 'zh_CN'
+    'pma_collation_connection' => 'utf8_general_ci'
+    'PHPSESSID' => '52qs7guk37894p2ik8sb808pk0'
+    '_csrf' => '42dc967237628a6c54b11943516da676a6ac0a22954a84c040d6ce2a92995a9es:32:\"ENY4rz2QfHYQWW8bT5faT3SW9PGNgLeN\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.adv.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '196'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://local.adv.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://local.adv.com/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'pma_lang=zh_CN; pma_collation_connection=utf8_general_ci; PHPSESSID=52qs7guk37894p2ik8sb808pk0; _csrf=42dc967237628a6c54b11943516da676a6ac0a22954a84c040d6ce2a92995a9es%3A32%3A%22ENY4rz2QfHYQWW8bT5faT3SW9PGNgLeN%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.adv.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/advanced/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/advanced/web/index.php'
+    'REMOTE_PORT' => '65002'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1416920156.652
+    'REQUEST_TIME' => 1416920156
+]
+2014-11-25 12:56:01 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/advanced/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/advanced/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/advanced/frontend/controllers/SiteController.php:80
+2014-11-25 12:56:01 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'ZWdqc2l6YXcgKTNHGwBTJgMvMyI.LVkVMVIMEj1JMiBcNy09DjYEOQ=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '111111'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'pma_lang' => 'zh_CN'
+    'pma_collation_connection' => 'utf8_general_ci'
+    'PHPSESSID' => '52qs7guk37894p2ik8sb808pk0'
+    '_csrf' => '42dc967237628a6c54b11943516da676a6ac0a22954a84c040d6ce2a92995a9es:32:\"ENY4rz2QfHYQWW8bT5faT3SW9PGNgLeN\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.adv.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '197'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://local.adv.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://local.adv.com/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'pma_lang=zh_CN; pma_collation_connection=utf8_general_ci; PHPSESSID=52qs7guk37894p2ik8sb808pk0; _csrf=42dc967237628a6c54b11943516da676a6ac0a22954a84c040d6ce2a92995a9es%3A32%3A%22ENY4rz2QfHYQWW8bT5faT3SW9PGNgLeN%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.adv.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/advanced/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/advanced/web/index.php'
+    'REMOTE_PORT' => '65002'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1416920161.75
+    'REQUEST_TIME' => 1416920161
+]
