@@ -3,10 +3,13 @@
 
 目前功能
 ------------------
-1.rbac backend/modules/srbac
-2.menu backend/modules/menu
-3.user
-4.商品模块正在编写
+1.rbac backend/modules/srbac.
+
+2.menu backend/modules/menu.
+
+3.user.
+
+4.商品模块正在编写.
 
 实例地址
 -----------------
