@@ -8,6 +8,8 @@ use common\models\search\SearchBrand;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\web\UploadedFile;
+use common\helpers\Upload;
 /**
  * GoodsBrandController implements the CRUD actions for GoodsBrand model.
  */
@@ -61,11 +63,21 @@ class GoodsBrandController extends Controller
     {
         $model = new GoodsBrand();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            if ($model->saveUploadedFile() !== false) {
-              Yii::$app->session->setFlash('success', 'Upload Sukses');
+
+
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+            $upload = UploadedFile::getInstance($model, 'logo');
+
+            $savePath = Yii::$app->params['savePath'];
+            $savePath .= date('/Y/m/d/') . $upload->name;
+            @mkdir(dirname($savePath), 0777, true);
+            $model->logo = $savePath;
+            if (($upload->saveAs($savePath)!==false) && $model->save() ) {
+                Upload::thumb($savePath);
+                Yii::$app->session->setFlash('success', 'Upload Success');
+                return $this->redirect(['view', 'id' => $model->id]);
             }
-            return $this->redirect(['view', 'id' => $model->id]);
+
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -120,4 +132,5 @@ class GoodsBrandController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
+
 }

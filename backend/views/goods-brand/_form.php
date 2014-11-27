@@ -10,8 +10,10 @@ use common\models\CategoryGoods;
 
 <div class="goods-brand-form">
 
-    <?php $form = ActiveForm::begin(); ?>
-
+    <?php $form = ActiveForm::begin([
+            'options' => ['enctype'=>"multipart/form-data"]
+        ]); 
+    ?>
     <?= $form->field($model, 'category_id')->dropDownList(CategoryGoods::getPids(false)) ?>
 
     <?= $form->field($model, 'name_cn')->textInput(['maxlength' => 100]) ?>

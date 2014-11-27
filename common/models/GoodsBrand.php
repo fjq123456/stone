@@ -52,6 +52,7 @@ class GoodsBrand extends \yii\db\ActiveRecord
     {
         return [
             [['category_id', 'name_cn'], 'required'],
+            [['logo'],'file','extensions'=>['png']],
             [['id', 'category_id', 'status'], 'integer'],
             [['intro', 'story'], 'string'],
             [['name_cn', 'name_en'], 'string', 'max' => 100],
