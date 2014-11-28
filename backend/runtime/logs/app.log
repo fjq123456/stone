@@ -19833,3 +19833,247 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1417099021.177
     'REQUEST_TIME' => 1417099021
 ]
+2014-11-28 15:09:39 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: D:\www\stone\vendor\yiisoft\yii2/messages/zh_CN/yii.php Fallback file does not exist as well: D:\www\stone\vendor\yiisoft\yii2/messages/zh/yii.php
+    in D:\www\stone\backend\views\site\login.php:20
+    in D:\www\stone\backend\controllers\SiteController.php:81
+2014-11-28 15:09:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'psgljrtorjka6kra1g3kedoi10'
+    '_csrf' => '0f16f7679d66f59c0dc23900b1cf43de370130b803adce5764a2608575653ef1s:32:\"HPNfxf1Ui_0veZUNVPQ6mZa06AOhR5I4\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin.php'
+]
+
+$_SERVER = [
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, */*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; MSIE 9.0; qdesk 2.4.1266.203; Windows NT 6.1; WOW64; Trident/5.0)'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => 'PHPSESSID=psgljrtorjka6kra1g3kedoi10; _csrf=0f16f7679d66f59c0dc23900b1cf43de370130b803adce5764a2608575653ef1s%3A32%3A%22HPNfxf1Ui_0veZUNVPQ6mZa06AOhR5I4%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Services\\IPT\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\ThinkPad\\Bluetooth Software\\;C:\\Program Files\\ThinkPad\\Bluetooth Software\\syswow64;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseGit\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\wamp\\bin\\mysql\\mysql5.6.17\\bin;C:\\Program Files\\nodejs;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at local.stone.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/www/stone/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/www/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => 'D:/www/stone/web/admin.php'
+    'REMOTE_PORT' => '58697'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/login'
+    'REQUEST_URI' => '/admin.php?r=site/login'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417183779.468
+    'REQUEST_TIME' => 1417183779
+]
+2014-11-28 15:09:47 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: D:\www\stone\vendor\yiisoft\yii2/messages/zh_CN/yii.php Fallback file does not exist as well: D:\www\stone\vendor\yiisoft\yii2/messages/zh/yii.php
+    in D:\www\stone\backend\controllers\SiteController.php:76
+2014-11-28 15:09:47 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'WVBYTW16bFgRABYrFRxdDTAPaDsIIDkWDwAJewAgDWhvERclP08lbA=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '111111'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'psgljrtorjka6kra1g3kedoi10'
+    '_csrf' => '0f16f7679d66f59c0dc23900b1cf43de370130b803adce5764a2608575653ef1s:32:\"HPNfxf1Ui_0veZUNVPQ6mZa06AOhR5I4\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, */*'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=site/login'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; MSIE 9.0; qdesk 2.4.1266.203; Windows NT 6.1; WOW64; Trident/5.0)'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_HOST' => 'local.stone.com'
+    'CONTENT_LENGTH' => '197'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_COOKIE' => 'PHPSESSID=psgljrtorjka6kra1g3kedoi10; _csrf=0f16f7679d66f59c0dc23900b1cf43de370130b803adce5764a2608575653ef1s%3A32%3A%22HPNfxf1Ui_0veZUNVPQ6mZa06AOhR5I4%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Services\\IPT\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\ThinkPad\\Bluetooth Software\\;C:\\Program Files\\ThinkPad\\Bluetooth Software\\syswow64;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseGit\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\wamp\\bin\\mysql\\mysql5.6.17\\bin;C:\\Program Files\\nodejs;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at local.stone.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/www/stone/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/www/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => 'D:/www/stone/web/admin.php'
+    'REMOTE_PORT' => '58705'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/login'
+    'REQUEST_URI' => '/admin.php?r=site/login'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417183787.417
+    'REQUEST_TIME' => 1417183787
+]
+2014-11-28 15:10:05 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: D:\www\stone\vendor\yiisoft\yii2/messages/zh_CN/yii.php Fallback file does not exist as well: D:\www\stone\vendor\yiisoft\yii2/messages/zh/yii.php
+    in D:\www\stone\backend\views\site\login.php:20
+    in D:\www\stone\backend\controllers\SiteController.php:81
+2014-11-28 15:10:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '6na6kqi21172i09r2kp5s04pn6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=6na6kqi21172i09r2kp5s04pn6'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Services\\IPT\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\ThinkPad\\Bluetooth Software\\;C:\\Program Files\\ThinkPad\\Bluetooth Software\\syswow64;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseGit\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\wamp\\bin\\mysql\\mysql5.6.17\\bin;C:\\Program Files\\nodejs;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at local.stone.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/www/stone/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/www/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => 'D:/www/stone/web/admin.php'
+    'REMOTE_PORT' => '58714'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/admin.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417183805.708
+    'REQUEST_TIME' => 1417183805
+]
+2014-11-28 15:10:07 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: D:\www\stone\vendor\yiisoft\yii2/messages/zh_CN/yii.php Fallback file does not exist as well: D:\www\stone\vendor\yiisoft\yii2/messages/zh/yii.php
+    in D:\www\stone\backend\controllers\SiteController.php:76
+2014-11-28 15:10:07 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'cm9WUDg4UTM7LTIyT1tmazBXZSNcfRdnEC4HGXUINws2AzwcaX1mZA=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '111111'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '6na6kqi21172i09r2kp5s04pn6'
+    '_csrf' => '59436e1034086d899aab9b8414d74e5203a59f0ed5a70bd7e2abf43a217b5cb8s:32:\"IBdbwc7XB83sdEFTbAQIM0f8DljLQE7W\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin.php'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '197'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://local.stone.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=6na6kqi21172i09r2kp5s04pn6; _csrf=59436e1034086d899aab9b8414d74e5203a59f0ed5a70bd7e2abf43a217b5cb8s%3A32%3A%22IBdbwc7XB83sdEFTbAQIM0f8DljLQE7W%22%3B'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Services\\IPT\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\ThinkPad\\Bluetooth Software\\;C:\\Program Files\\ThinkPad\\Bluetooth Software\\syswow64;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseGit\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\wamp\\bin\\mysql\\mysql5.6.17\\bin;C:\\Program Files\\nodejs;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\nodejs;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at local.stone.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/www/stone/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/www/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => 'D:/www/stone/web/admin.php'
+    'REMOTE_PORT' => '58718'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/admin.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417183807.584
+    'REQUEST_TIME' => 1417183807
+]

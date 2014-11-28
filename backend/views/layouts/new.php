@@ -31,6 +31,8 @@ AppAsset::register($this);
 		<?= Html::csrfMetaTags() ?>
 
 		<script src='static/common/js/jquery.min.js'></script>
+
+        <?= Html::cssFile('static/common/css/ace-part2.min.css',['condition'=>'lte IE 9']) ?>
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	    <!--[if lt IE 9]>
