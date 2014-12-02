@@ -111,6 +111,7 @@ class RoleController extends SrbacController
 
 		$users = User::find()->where(['status' => 10])
 							 ->andWhere('id>1')
+                             ->orderBy('username')
 							 ->all();
 		$users_info = [];
 		foreach ($users as $k => $v) {

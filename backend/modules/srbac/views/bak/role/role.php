@@ -19,7 +19,11 @@ $this->title = '角色管理';
     <ul class="breadcrumb">
 
     	<li>
-            <a href="#modal-form" role="button" class="blue btn btn-success btn-xs" data-toggle="modal"> 添加角色 </a>
+            <a href="<?=Url::to(['default/index'])?>" class='btn btn-success btn-minier'>管理授权项</a>
+            <a href="<?=Url::to(['default/assign'])?>" class='btn btn-success btn-minier'>分配授权</a>
+            <a href="<?=Url::to(['role/index'])?>" class='btn btn-success btn-minier'>角色管理</a>
+
+            <a href="#modal-form" role="button" class="blue btn btn-danger btn-minier" data-toggle="modal"> 添加角色 </a>
         </li>
     </ul><!-- /.breadcrumb -->
     <!-- /section:basics/content.searchbox -->
@@ -36,20 +40,13 @@ $this->title = '角色管理';
 				</small>
 			</h1>
 		</div><!-- /.page-header -->
-
-        <div class="btn-group pull-right">
-            <a href="<?=Url::to(['default/index'])?>" class='btn btn-info btn-sm'>管理授权项</a>
-            <a href="<?=Url::to(['default/assign'])?>" class='btn btn-info btn-sm'>分配授权</a>
-            <a href="<?=Url::to(['role/index'])?>" class='btn btn-info btn-sm'>角色管理</a>
+		<div class="alert alert-info">
+            <p>SRBAC使用分为几步:</p>
+            <p>1.选择需要接受权限控制的功能。<a href="<?=Url::to(['default/index'])?>" class='btn btn-success btn-minier'> go! </a></p>
+            <p class="alert alert-danger">2.添加角色,点击顶端红色"添加角色"按扭</p>
+            <p>3.为角色添加可操作的功能(在第一步中选择的功能中选择)。<a href="<?=Url::to(['default/assign'])?>" class='btn btn-success btn-minier'> go! </a></p>
+            <p class="alert alert-danger">4.为用户授权,点对应角色的"选择用户"按扭</p>
         </div>
-        <div class="alert alert-info">
-            <h5>SRBAC使用分为几步:</h5>
-            <p class="text-info">1.选择需要接受权限控制的功能。<a href="<?=Url::to(['default/index'])?>" class='btn btn-info btn-xs'> go! </a></p>
-            <p class="text-info">2.添加角色。<a href="<?=Url::to(['role/index'])?>" class='btn btn-info btn-xs'> go! </a></p>
-            <p class="text-info">3.为角色添加可操作的功能(在第一步中选择的功能中选择)。<a href="<?=Url::to(['default/assign'])?>" class='btn btn-info btn-xs'> go! </a></p>
-            <p class="text-danger">4.为用户授权,在角色管理页面选择对应的角色行的"选择用户"。</p>
-        </div>
-
 		<div class="row">
 			<div class="col-xs-12">
 				<!-- PAGE CONTENT BEGINS -->
@@ -67,7 +64,7 @@ $this->title = '角色管理';
 										数据
 									</th>
 									<th class="hidden-480">添加时间</th>
-									<th width="25%" class="hidden-480"></th>
+									<th width="18%" class="hidden-480"></th>
 								</tr>
 							</thead>
 
@@ -94,8 +91,8 @@ $this->title = '角色管理';
 											<a class="btn btn-xs btn-danger del" href="<?=Url::to(['role/delete','role_name'=>$v->name]);?>">
 												<i class="ace-icon fa fa-trash-o bigger-120"></i>删除
 											</a>
-											<a href="<?=Url::to(['role/user', 'role_name' => $v->name])?>" class='btn btn-info btn-xs'>选择用户</a>
-											<a href="<?=Url::to(['role/child', 'role_name' => $v->name])?>" class='btn btn-info btn-xs'>添加子角色</a>
+											<a href="<?=Url::to(['role/user', 'role_name' => $v->name])?>" class='btn btn-success btn-minier'>选择用户</a>
+											<a href="<?=Url::to(['role/child', 'role_name' => $v->name])?>" class='btn btn-success btn-minier'>添加子角色</a>
 										</div>
 									</td>
 								</tr>

@@ -2,11 +2,6 @@
 
 use yii\helpers\Html;
 use yii\helpers\Url;
-/**
- * @var yii\web\View $this
- * @var yii\data\ActiveDataProvider $dataProvider
- * @var common\models\SearchUser $searchModel
- */
 
 $this->title = '权限管理';
 ?>
@@ -18,9 +13,6 @@ $this->title = '权限管理';
 
     <ul class="breadcrumb">
         <li>
-            <a href="<?=Url::to(['default/index'])?>" class='btn btn-success btn-minier'>管理授权项</a>
-            <a href="<?=Url::to(['default/assign'])?>" class='btn btn-success btn-minier'>分配授权</a>
-            <a href="<?=Url::to(['role/index'])?>" class='btn btn-success btn-minier'>角色管理</a>
         </li>
     </ul><!-- /.breadcrumb -->
     <!-- /section:basics/content.searchbox -->
@@ -39,51 +31,50 @@ $this->title = '权限管理';
             </h1>
 
         </div><!-- /.page-header -->
+
+        <div class="btn-group pull-right">
+            <a href="<?=Url::to(['default/index'])?>" class='btn btn-info btn-sm'>管理授权项</a>
+            <a href="<?=Url::to(['default/assign'])?>" class='btn btn-info btn-sm'>分配授权</a>
+            <a href="<?=Url::to(['role/index'])?>" class='btn btn-info btn-sm'>角色管理</a>
+        </div>
         <div class="alert alert-info">
-            <p>SRBAC使用分为几步:</p>
-            <p class="alert alert-danger">1.选择需要接受权限控制的功能。</p>
-            <p>2.添加角色。<a href="<?=Url::to(['role/index'])?>" class='btn btn-success btn-minier'> go! </a></p>
-            <p>3.为角色添加可操作的功能(在第一步中选择的功能中选择)。<a href="<?=Url::to(['default/assign'])?>" class='btn btn-success btn-minier'> go! </a></p>
-            <p>4.为用户授权,在角色管理页面选择对应的角色行的"选择用户"。<a href="<?=Url::to(['role/index'])?>" class='btn btn-success btn-minier'> go! </a></p>
+
+            <h5>SRBAC使用分为几步:</h5>
+            <p class="text-danger">1.选择需要接受权限控制的功能。</p>
+            <p class="text-info">2.添加角色。<a href="<?=Url::to(['role/index'])?>" class='btn btn-info btn-xs'> go! </a></p>
+            <p class="text-info">3.为角色添加可操作的功能(在第一步中选择的功能中选择)。<a href="<?=Url::to(['default/assign'])?>" class='btn btn-info btn-xs'> go! </a></p>
+            <p class="text-info">4.为用户授权,在角色管理页面选择对应的角色行的"选择用户"。<a href="<?=Url::to(['role/index'])?>" class='btn btn-info btn-xs'> go! </a></p>
         </div>
         <!-- PAGE CONTENT BEGINS -->
         <div class="row">
-            <?php foreach ($classes as $key => $value):?>
-            <div class="col-sm-12 widget-container-col ui-sortable">
-                <div class="widget-box transparent ui-sortable-handle">
-                    <div class="widget-header">
-                        <h4 class="widget-title lighter"><?php echo $key;?></h4>
-                        <div class="widget-toolbar no-border">
-                            <a href="#" data-action="collapse">
-                                <i class="ace-icon fa fa-chevron-up"></i>
-                            </a>
-                        </div>
+
+            <div class="col-md-12">
+                <?php foreach ($classes as $key => $value):?>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><?php echo $key;?></h4>
                     </div>
-                    <div class="widget-body">
-                        <div class="widget-main">
-                            <?php foreach ($value as $ke => $val):?>
-                            <dl class="col-sm-12 col-xs-12">
+                    <div class="panel-body">
+                        <?php foreach ($value as $ke => $val):?>
+                            <dl class="col-md-12 col-sm-12">
                                 <dt><?php echo $ke;?> </dt>
-                                    <!--
-                                    <input name="action" value="" type="checkbox" class="ace"></dt>
-                                    -->
                                 <?php foreach ($val as $k => $v):?>
-                                <dd class="checkbox pull-left" style="min-width:300px;">
-                                    <label class=''>
-                                        <input name="action" value="<?=$k?>" type="checkbox" <?php if(isset($v['check'])) echo 'checked';?> class="action ace">
+                                    <dd class="checkbox pull-left" style="min-width:300px;">
+                                        <label class=''>
+                                            <input name="action" value="<?=$k?>" type="checkbox" <?php if(isset($v['check'])) echo 'checked';?> class="action ace">
                                         <span class="lbl "><?php echo $v['action']?>
                                             <input value="<?php echo $v['des']?>" class="action_des input-small" />
                                         </span>
-                                    </label>
-                                </dd>
+                                        </label>
+                                    </dd>
                                 <?php endforeach;?>
                             </dl>
-                            <?php endforeach;?>
-                        </div>
+                            <hr/>
+                        <?php endforeach;?>
                     </div>
                 </div>
+                <?php endforeach;?>
             </div>
-            <?php endforeach;?>
         </div><!-- /.row -->
     </div><!-- /.page-content-area -->
 </div><!-- /.page-content -->
@@ -117,9 +108,4 @@ $(function(){
     }
 
 })  
-
-
-
-
-
 </script>

@@ -30,9 +30,12 @@ AppAsset::register($this);
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 		<?= Html::csrfMetaTags() ?>
 
-		<script src='static/common/js/jquery.min.js'></script>
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <?= Html::cssFile('static/common/css/ace-part2.min.css',['condition'=>'lte IE 9']) ?>
+
+        <!--[if !IE]> -->
+        <script src="static/common/js/jquery.min.js"></script>
+        <!-- <![endif]-->
+
 	    <!--[if lt IE 9]>
 	      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -304,34 +307,6 @@ AppAsset::register($this);
 				<?=$content?>
 			</div><!-- /.main-content -->
 
-			<div class="footer">
-				<div class="footer-inner">
-					<!-- #section:basics/footer -->
-					<div class="footer-content">
-						<span class="bigger-120">
-							<span class="blue bolder">Ace</span>
-							Application &copy; 2013-2014
-						</span>
-
-						&nbsp; &nbsp;
-						<span class="action-buttons">
-							<a href="#">
-								<i class="ace-icon fa fa-twitter-square light-blue bigger-150"></i>
-							</a>
-
-							<a href="#">
-								<i class="ace-icon fa fa-facebook-square text-primary bigger-150"></i>
-							</a>
-
-							<a href="#">
-								<i class="ace-icon fa fa-rss-square orange bigger-150"></i>
-							</a>
-						</span>
-					</div>
-
-					<!-- /section:basics/footer -->
-				</div>
-			</div>
 
 			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
 				<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
@@ -343,7 +318,12 @@ AppAsset::register($this);
 				$('.submenu .active').parents('.p-menu').addClass('active open');
 			})
 		</script>
-		<!-- ace scripts -->
+
+        <!--[if IE]>
+        <script src="static/common/js/jquery-1.11.0.min.js"></script>
+        <![endif]-->
+
+        <script src="static/common/js/jquery-ui.custom.min.js"></script>
 		<?php $this->endBody() ?>
 
 				<!-- 删除等危险操作的提示 -->

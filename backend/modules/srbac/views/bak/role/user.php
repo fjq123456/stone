@@ -18,9 +18,9 @@ $this->title = '用户角色管理';
 
     <ul class="breadcrumb">
     	<li>
-            <a href="<?=Url::to(['default/index'])?>" class='btn btn-info btn-xs'>管理授权项</a>
-            <a href="<?=Url::to(['default/assign'])?>" class='btn btn-info btn-xs'>分配授权</a>
-            <a href="<?=Url::to(['role/index'])?>" class='btn btn-info btn-xs'>角色管理</a>
+            <a href="<?=Url::to(['default/index'])?>" class='btn btn-success btn-minier'>管理授权项</a>
+            <a href="<?=Url::to(['default/assign'])?>" class='btn btn-success btn-minier'>分配授权</a>
+            <a href="<?=Url::to(['role/index'])?>" class='btn btn-success btn-minier'>角色管理</a>
         </li>
     </ul><!-- /.breadcrumb -->
     <!-- /section:basics/content.searchbox -->
@@ -41,18 +41,18 @@ $this->title = '用户角色管理';
 		<div class="row">
     		<div class="col-xs-12">
     			<?php foreach($user as $k=>$v): ?>
-					<h5> <a href="#" class="btn btn-xs pinyin" title="全选"><?=$k?></a></h5>
-					<ul class="u-list">
+					<h3> <a href="#" class="btn btn-xs pinyin" title="全选"><?=$k?></a></h3>
+					<ul class="user-list">
 						<?php foreach($v as $key=>$val): ?>
-					    <li rel="user-id" data-user_id="<?=$key?>" class="<?php if($val['is_sel'] == 1) echo 'selected';?> user">
+					    <li rel="user-id" data-user_id="<?=$key?>" class="<?php if($val['is_sel'] == 1) echo 'selected';?> user"> 
 					    	<?=$val['username']?>
 					    </li>
 					    <?php endforeach;?>
 					    <div style="clear:both"></div>
 					</ul>
 				<?php endforeach;?>
-            <input type="hidden" name='csrf' value="<?=Yii::$app->request->getCsrfToken()?>">
-            <input type="hidden" name="role_name" value="<?=Yii::$app->request->get('role_name');?>">
+				<input type="hidden" name='csrf' value="<?=Yii::$app->request->getCsrfToken()?>">
+				<input type="hidden" name="role_name" value="<?=Yii::$app->request->get('role_name');?>">
 		</div>
 </div>
 

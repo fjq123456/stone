@@ -24,7 +24,7 @@ class AppAsset extends AssetBundle
         'static/common/bootstrap/css/bootstrap.min.css',
         'static/back/css/font-awesome.min.css',
         'static/common/css/jquery-ui.min.css',
-        'static/back/css/ace.min.css',//要在jquery-ui.min.css之后
+        'static/back/css/ace.css',//要在jquery-ui.min.css之后, 取了一部分代码
         'static/back/css/common.css',
     ];
 

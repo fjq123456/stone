@@ -18,7 +18,9 @@ $this->title = '权限管理';
 
     <ul class="breadcrumb">
         <li>
-
+            <a href="<?=Url::to(['default/index'])?>" class='btn btn-success btn-minier'>管理授权项</a>
+            <a href="<?=Url::to(['default/assign'])?>" class='btn btn-success btn-minier'>分配授权</a>
+            <a href="<?=Url::to(['role/index'])?>" class='btn btn-success btn-minier'>角色管理</a>
         </li>
     </ul><!-- /.breadcrumb -->
     <!-- /section:basics/content.searchbox -->
@@ -36,28 +38,23 @@ $this->title = '权限管理';
                 </small>
             </h1>
         </div><!-- /.page-header -->
-
-        <div class="btn-group pull-right">
-            <a href="<?=Url::to(['default/index'])?>" class='btn btn-info btn-sm'>管理授权项</a>
-            <a href="<?=Url::to(['default/assign'])?>" class='btn btn-info btn-sm'>分配授权</a>
-            <a href="<?=Url::to(['role/index'])?>" class='btn btn-info btn-sm'>角色管理</a>
-        </div>
         <div class="alert alert-info">
-
-            <h5>SRBAC使用分为几步:</h5>
-            <p class="text-danger">1.选择需要接受权限控制的功能。<a href="<?=Url::to(['default/index'])?>" class='btn btn-info btn-xs'> go! </a></p>
-            <p class="text-info">2.添加角色。<a href="<?=Url::to(['role/index'])?>" class='btn btn-info btn-xs'> go! </a></p>
-            <p class="text-info">3.为角色添加可操作的功能(在第一步中选择的功能中选择)</p>
-            <p class="text-info">4.为用户授权,在角色管理页面选择对应的角色行的"选择用户"。<a href="<?=Url::to(['role/index'])?>" class='btn btn-info btn-xs'> go! </a></p>
+            <p>SRBAC使用分为几步:</p>
+            <p>1.选择需要接受权限控制的功能。<a href="<?=Url::to(['default/index'])?>" class='btn btn-success btn-minier'> go! </a></p>
+            <p>2.添加角色。<a href="<?=Url::to(['role/index'])?>" class='btn btn-success btn-minier'> go! </a></p>
+            <p class="alert alert-danger">3.为角色添加可操作的功能(在第一步中选择的功能中选择)。</p>
+            <p>4.为用户授权,在角色管理页面选择对应的角色行的"选择用户"。<a href="<?=Url::to(['role/index'])?>" class='btn btn-success btn-minier'> go! </a></p>
         </div>
         <!-- PAGE CONTENT BEGINS -->
         <div class="row">
-            <div class="col-md-2">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">角色</h3>
+
+            <div class="col-xs-12 col-sm-2 widget-container-col ui-sortable">
+                <div class="widget-box widget-color-dark light-border ui-sortable-handle">
+                    <div class="widget-header">
+                        <h5 class="widget-title smaller">角色</h5>
                     </div>
-                    <div class="panel-body">
+
+                    <div class="widget-body">
                         <select class="form-control" id="roleselect" size='18'>
                             <?php foreach ($roles as $k => $v):?>
                                 <option value="<?=$v->name ?>"><?=$v->name?></option>
@@ -66,32 +63,36 @@ $this->title = '权限管理';
                     </div>
                 </div>
             </div>
-            <div class="col-md-10">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">分配权限
-                        <div class="pull-right">
+
+            <div class="col-xs-12 col-sm-6 widget-container-col ui-sortable">
+                <div class="widget-box widget-color-dark light-border ui-sortable-handle">
+                    <div class="widget-header">
+                        <h5 class="widget-title smaller">分配权限</h5>
+                        <div class="widget-toolbar">
                             <span class="badge badge-danger">添加<<>>删除</span>
                         </div>
-                        </h3>
                     </div>
-                    <div class="panel-body">
-                        <div class="col-sm-5">
-                            <select class="form-control" id="yet" multiple="multiple" size='22'></select>
-                        </div>
-                        <div class="col-sm-1" style="margin-top:100px;">
-                            <div class="btn-group btn-group-vertical">
-                                <button class="btn btn-info handel" rel="add"><i class='fa fa-angle-double-left'></i></button>
-                                <button class="btn btn-info handel" rel="del"><i class='fa fa-angle-double-right'></i></button>
+
+                    <div class="widget-body">
+                        <div class="row">
+                            <div class="col-sm-6 widget-container-col ui-sortable">
+                                <select class="form-control" id="yet" multiple="multiple" size='22'></select>
                             </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <select class="form-control" id="un" multiple="multiple" size='22'></select>
+                            <div class="col-sm-1 widget-container-col" style="margin-top:100px;">
+                                <div class="btn-group btn-group-vertical">
+                                    <button class="btn btn-info handel" rel="add"><i class='fa fa-angle-double-left'></i></button>
+                                    <button class="btn btn-info handel" rel="del"><i class='fa fa-angle-double-right'></i></button>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 widget-container-col ui-sortable">
+                                <select class="form-control" id="un" multiple="multiple" size='22'></select>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
+            
         </div><!-- /.row -->
     </div><!-- /.page-content-area -->
 </div><!-- /.page-content -->
