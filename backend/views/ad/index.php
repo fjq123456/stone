@@ -8,13 +8,12 @@ use yii\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $searchModel backend\models\SearchAd */
 /* @var $dataProvider yii\data\ActiveDataProvider */
-
+//
 $this->title = '广告列表';
+
+$this->title = Yii::t('app', 'Ad');
 $this->params['breadcrumbs'][] = $this->title;
 
-$this->params['breadcrumbs'] = [
-    ['label' => '创建', 'url' => ['create'],'options' => ['class' => 'btn btn-success btn-minier']],
-];
 ?>
 
 <div class="breadcrumbs" id="breadcrumbs">

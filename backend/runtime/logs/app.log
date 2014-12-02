@@ -20339,3 +20339,1432 @@ $_SERVER = [
     'REQUEST_TIME' => 1417183807
 >>>>>>> 9176d6e5202e21ee683db363f764cfb310232723
 ]
+2014-12-02 14:09:17 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+2014-12-02 14:09:17 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'VVNWNjhGZEwfNG9uezItORo3Iw9oPhYabCQ5AxUjN3kjHAFTSBYBLQ=='
+    'Generator' => [
+        'modelClass' => 'common\\models\\Images'
+        'searchModelClass' => 'common\\models\\search\\SearchImages'
+        'controllerClass' => 'backend\\controllers\\ImgController'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'moduleID' => ''
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'mine'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '506'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://local.stone.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=gii%2Fdefault%2Fview&id=crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50191'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=crud'
+    'REQUEST_URI' => '/admin.php?r=gii%2Fdefault%2Fview&id=crud'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529357.169
+    'REQUEST_TIME' => 1417529357
+]
+2014-12-02 14:09:28 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+2014-12-02 14:09:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'Q3hqVUs1NlIJH1MNCEF/JwwcH2wbTUQEeg8FYGZQZWc1Nz0wO2VTMw=='
+    'Generator' => [
+        'modelClass' => 'common\\models\\Images'
+        'searchModelClass' => 'common\\models\\search\\SearchImages'
+        'controllerClass' => 'backend\\controllers\\ImgController'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'moduleID' => ''
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'mine'
+    ]
+    'generate' => ''
+    'answers' => [
+        '3ddc20b104b1d403e716f80799348022' => '1'
+        'cd92b49812e5dce467e50955a5023556' => '1'
+        '912812d57ca00ecff418c93331e49770' => '1'
+        '939a2aac70baa25c9a7db3fa5c2dd6cb' => '1'
+        'ef556f9a72934df27bbe4cfe1afff785' => '1'
+        'df65a35d98b9f8fdf25e0f143bbf2539' => '1'
+        '31fb9a58a4cf30e6307d185f3ab58b1c' => '1'
+        '907af373a7c49fb5597590ff7f2c335f' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '893'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://local.stone.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=gii%2Fdefault%2Fview&id=crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50200'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=crud'
+    'REQUEST_URI' => '/admin.php?r=gii%2Fdefault%2Fview&id=crud'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529368.539
+    'REQUEST_TIME' => 1417529368
+]
+2014-12-02 14:09:36 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/img/index.php:25
+    in /data/htdocs/stone/backend/controllers/ImgController.php:41
+2014-12-02 14:09:36 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'img'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50205'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=img'
+    'REQUEST_URI' => '/admin.php?r=img'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529376.62
+    'REQUEST_TIME' => 1417529376
+]
+2014-12-02 14:09:41 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/img/create.php:24
+    in /data/htdocs/stone/backend/controllers/ImgController.php:70
+2014-12-02 14:09:41 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'img/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=img'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50205'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=img%2Fcreate'
+    'REQUEST_URI' => '/admin.php?r=img%2Fcreate'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529381.902
+    'REQUEST_TIME' => 1417529381
+]
+2014-12-02 14:10:10 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/controllers/ImgController.php:65
+2014-12-02 14:10:10 [127.0.0.1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sort' cannot be null' in /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php:768
+Stack trace:
+#0 /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php(768): PDOStatement->execute()
+#1 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveRecord.php(463): yii\db\Command->execute()
+#2 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveRecord.php(438): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /data/htdocs/stone/backend/controllers/ImgController.php(65): yii\db\BaseActiveRecord->save()
+#5 [internal function]: backend\controllers\ImgController->actionCreate()
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('img/create', Array)
+#10 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sort' cannot be null
+The SQL being executed was: INSERT INTO `images` (`title`, `intro`, `path`, `name`, `res_id`, `res_name`, `md5`, `sort`, `created_at`, `ext`, `status`) VALUES ('aa', 'dsdf', 'sdf', 'sdf', 1, 'sdf', 'sd', NULL, NULL, 'sdf', NULL)' in /data/htdocs/stone/vendor/yiisoft/yii2/db/Schema.php:532
+Stack trace:
+#0 /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `im...')
+#1 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveRecord.php(463): yii\db\Command->execute()
+#2 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveRecord.php(438): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /data/htdocs/stone/backend/controllers/ImgController.php(65): yii\db\BaseActiveRecord->save()
+#5 [internal function]: backend\controllers\ImgController->actionCreate()
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('img/create', Array)
+#10 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'sort' cannot be null
+)
+
+2014-12-02 14:10:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'img/create'
+]
+
+$_POST = [
+    '_csrf' => 'TksyXzFNcGIELAsHcjk5FwEvR2ZhNQI0dzxdahwoI1c4BGU6QR0VAw=='
+    'Images' => [
+        'title' => 'aa'
+        'intro' => 'dsdf'
+        'path' => 'sdf'
+        'name' => 'sdf'
+        'res_id' => '1'
+        'res_name' => 'sdf'
+        'md5' => 'sd'
+        'sort' => ''
+        'created_at' => ''
+        'ext' => 'sdf'
+        'status' => ''
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '299'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://local.stone.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=img%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50212'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=img%2Fcreate'
+    'REQUEST_URI' => '/admin.php?r=img%2Fcreate'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529410.708
+    'REQUEST_TIME' => 1417529410
+]
+2014-12-02 14:10:17 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/img/create.php:24
+    in /data/htdocs/stone/backend/controllers/ImgController.php:70
+2014-12-02 14:10:17 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'img/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=img'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50217'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=img%2Fcreate'
+    'REQUEST_URI' => '/admin.php?r=img%2Fcreate'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529417.149
+    'REQUEST_TIME' => 1417529417
+]
+2014-12-02 14:10:22 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/controllers/ImgController.php:65
+2014-12-02 14:10:22 [127.0.0.1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'status' cannot be null' in /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php:768
+Stack trace:
+#0 /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php(768): PDOStatement->execute()
+#1 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveRecord.php(463): yii\db\Command->execute()
+#2 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveRecord.php(438): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /data/htdocs/stone/backend/controllers/ImgController.php(65): yii\db\BaseActiveRecord->save()
+#5 [internal function]: backend\controllers\ImgController->actionCreate()
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('img/create', Array)
+#10 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'status' cannot be null
+The SQL being executed was: INSERT INTO `images` (`title`, `intro`, `path`, `name`, `res_id`, `res_name`, `md5`, `sort`, `created_at`, `ext`, `status`) VALUES ('aa', 'dsdf', 'sdf', 'sdf', 1, 'sdf', 'sd', 1, NULL, 'sdf', NULL)' in /data/htdocs/stone/vendor/yiisoft/yii2/db/Schema.php:532
+Stack trace:
+#0 /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `im...')
+#1 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveRecord.php(463): yii\db\Command->execute()
+#2 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveRecord.php(438): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /data/htdocs/stone/backend/controllers/ImgController.php(65): yii\db\BaseActiveRecord->save()
+#5 [internal function]: backend\controllers\ImgController->actionCreate()
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('img/create', Array)
+#10 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'status' cannot be null
+)
+
+2014-12-02 14:10:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'img/create'
+]
+
+$_POST = [
+    '_csrf' => 'b3VuckE2UXklElcqAkIYDCARG0sRTiMvVgIBR2xTAkwZOjkXMWY0GA=='
+    'Images' => [
+        'title' => 'aa'
+        'intro' => 'dsdf'
+        'path' => 'sdf'
+        'name' => 'sdf'
+        'res_id' => '1'
+        'res_name' => 'sdf'
+        'md5' => 'sd'
+        'sort' => '1'
+        'created_at' => ''
+        'ext' => 'sdf'
+        'status' => ''
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '300'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://local.stone.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=img%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50217'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=img%2Fcreate'
+    'REQUEST_URI' => '/admin.php?r=img%2Fcreate'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529422.044
+    'REQUEST_TIME' => 1417529422
+]
+2014-12-02 14:10:24 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/img/create.php:24
+    in /data/htdocs/stone/backend/controllers/ImgController.php:70
+2014-12-02 14:10:24 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'img/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=img'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50218'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=img%2Fcreate'
+    'REQUEST_URI' => '/admin.php?r=img%2Fcreate'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529424.856
+    'REQUEST_TIME' => 1417529424
+]
+2014-12-02 14:10:30 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/controllers/ImgController.php:65
+2014-12-02 14:10:30 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1' for column 'created_at' at row 1' in /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php:768
+Stack trace:
+#0 /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php(768): PDOStatement->execute()
+#1 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveRecord.php(463): yii\db\Command->execute()
+#2 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveRecord.php(438): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /data/htdocs/stone/backend/controllers/ImgController.php(65): yii\db\BaseActiveRecord->save()
+#5 [internal function]: backend\controllers\ImgController->actionCreate()
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('img/create', Array)
+#10 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1' for column 'created_at' at row 1
+The SQL being executed was: INSERT INTO `images` (`title`, `intro`, `path`, `name`, `res_id`, `res_name`, `md5`, `sort`, `created_at`, `ext`, `status`) VALUES ('aa', 'dsdf', 'sdf', 'sdf', 1, 'sdf', 'sd', 1, '1', 'sdf', 1)' in /data/htdocs/stone/vendor/yiisoft/yii2/db/Schema.php:532
+Stack trace:
+#0 /data/htdocs/stone/vendor/yiisoft/yii2/db/Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `im...')
+#1 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveRecord.php(463): yii\db\Command->execute()
+#2 /data/htdocs/stone/vendor/yiisoft/yii2/db/ActiveRecord.php(438): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /data/htdocs/stone/backend/controllers/ImgController.php(65): yii\db\BaseActiveRecord->save()
+#5 [internal function]: backend\controllers\ImgController->actionCreate()
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('img/create', Array)
+#10 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 22007
+    [1] => 1292
+    [2] => Incorrect datetime value: '1' for column 'created_at' at row 1
+)
+
+2014-12-02 14:10:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'img/create'
+]
+
+$_POST = [
+    '_csrf' => 'M1U0aUE2MjZ5Mg0xAkJ7Q3wxQVARTkBgCiJbXGxTYQNFGmMMMWZXVw=='
+    'Images' => [
+        'title' => 'aa'
+        'intro' => 'dsdf'
+        'path' => 'sdf'
+        'name' => 'sdf'
+        'res_id' => '1'
+        'res_name' => 'sdf'
+        'md5' => 'sd'
+        'sort' => '1'
+        'created_at' => '1'
+        'ext' => 'sdf'
+        'status' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '302'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://local.stone.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=img%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50219'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=img%2Fcreate'
+    'REQUEST_URI' => '/admin.php?r=img%2Fcreate'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529430.148
+    'REQUEST_TIME' => 1417529430
+]
+2014-12-02 14:10:34 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/img/create.php:24
+    in /data/htdocs/stone/backend/controllers/ImgController.php:70
+2014-12-02 14:10:34 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'img/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=img'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50220'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=img%2Fcreate'
+    'REQUEST_URI' => '/admin.php?r=img%2Fcreate'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529434.84
+    'REQUEST_TIME' => 1417529434
+]
+2014-12-02 14:10:40 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/controllers/ImgController.php:65
+2014-12-02 14:10:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'img/create'
+]
+
+$_POST = [
+    '_csrf' => 'Ujh4VWF0Ym8YX0ENIgArGh1cDWwxDBA5a08XYEwRMVokdy8wESQHDg=='
+    'Images' => [
+        'title' => 'aa'
+        'intro' => 'dsdf'
+        'path' => 'sdf'
+        'name' => 'sdf'
+        'res_id' => '1'
+        'res_name' => 'sdf'
+        'md5' => 'sd'
+        'sort' => '1'
+        'created_at' => '11112221111'
+        'ext' => 'sdf'
+        'status' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '312'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://local.stone.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=img%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50224'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=img%2Fcreate'
+    'REQUEST_URI' => '/admin.php?r=img%2Fcreate'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529440.704
+    'REQUEST_TIME' => 1417529440
+]
+2014-12-02 14:10:40 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/img/view.php:21
+    in /data/htdocs/stone/backend/controllers/ImgController.php:53
+2014-12-02 14:10:40 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'img/view'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=img%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50224'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=img%2Fview&id=1'
+    'REQUEST_URI' => '/admin.php?r=img%2Fview&id=1'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529440.85
+    'REQUEST_TIME' => 1417529440
+]
+2014-12-02 14:10:43 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/img/update.php:24
+    in /data/htdocs/stone/backend/controllers/ImgController.php:89
+2014-12-02 14:10:43 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'img/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=img%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50224'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=img%2Fupdate&id=1'
+    'REQUEST_URI' => '/admin.php?r=img%2Fupdate&id=1'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529443.566
+    'REQUEST_TIME' => 1417529443
+]
+2014-12-02 14:11:44 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/img/view.php:21
+    in /data/htdocs/stone/backend/controllers/ImgController.php:53
+2014-12-02 14:11:44 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'img/view'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=img%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50233'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=img%2Fview&id=1'
+    'REQUEST_URI' => '/admin.php?r=img%2Fview&id=1'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529503.945
+    'REQUEST_TIME' => 1417529503
+]
+2014-12-02 14:11:44 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/img/create.php:24
+    in /data/htdocs/stone/backend/controllers/ImgController.php:70
+2014-12-02 14:11:44 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'img/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=img'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50234'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=img%2Fcreate'
+    'REQUEST_URI' => '/admin.php?r=img%2Fcreate'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529504.769
+    'REQUEST_TIME' => 1417529504
+]
+2014-12-02 14:11:45 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/img/index.php:25
+    in /data/htdocs/stone/backend/controllers/ImgController.php:41
+2014-12-02 14:11:45 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'img'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50234'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=img'
+    'REQUEST_URI' => '/admin.php?r=img'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529505.744
+    'REQUEST_TIME' => 1417529505
+]
+2014-12-02 14:11:47 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+2014-12-02 14:11:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'crud'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=gii%2Fdefault%2Fview&id=model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50235'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=crud'
+    'REQUEST_URI' => '/admin.php?r=gii%2Fdefault%2Fview&id=crud'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529507.82
+    'REQUEST_TIME' => 1417529507
+]
+2014-12-02 14:11:50 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+2014-12-02 14:11:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'model'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=gii'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50235'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=model'
+    'REQUEST_URI' => '/admin.php?r=gii%2Fdefault%2Fview&id=model'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529510.272
+    'REQUEST_TIME' => 1417529510
+]
+2014-12-02 14:11:51 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/modules/menu/views/default/update.php:23
+    in /data/htdocs/stone/backend/modules/menu/controllers/DefaultController.php:109
+2014-12-02 14:11:51 [127.0.0.1][1][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'htmlspecialchars() expects parameter 1 to be string, array given' in /data/htdocs/stone/vendor/yiisoft/yii2/helpers/BaseHtml.php:96
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'htmlspecialchar...', '/data/htdocs/st...', 96, Array)
+#1 /data/htdocs/stone/vendor/yiisoft/yii2/helpers/BaseHtml.php(96): htmlspecialchars(Array, 11, 'UTF-8', true)
+#2 /data/htdocs/stone/vendor/yiisoft/yii2/helpers/BaseHtml.php(1631): yii\helpers\BaseHtml::encode(Array)
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/helpers/BaseHtml.php(132): yii\helpers\BaseHtml::renderTagAttributes(Array)
+#4 /data/htdocs/stone/vendor/yiisoft/yii2/helpers/BaseHtml.php(360): yii\helpers\BaseHtml::tag('a', '\xE5\x88\x97\xE8\xA1\xA8', Array)
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/widgets/Breadcrumbs.php(164): yii\helpers\BaseHtml::a('\xE5\x88\x97\xE8\xA1\xA8', Array, Array)
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/widgets/Breadcrumbs.php(139): yii\widgets\Breadcrumbs->renderItem(Array, '<li>{link}</li>...')
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Widget.php(96): yii\widgets\Breadcrumbs->run()
+#8 /data/htdocs/stone/backend/modules/menu/views/default/update.php(23): yii\base\Widget::widget(Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(325): require('/data/htdocs/st...')
+#10 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/data/htdocs/st...', Array)
+#11 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/data/htdocs/st...', Array, Object(backend\modules\menu\controllers\DefaultController))
+#12 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('update', Array, Object(backend\modules\menu\controllers\DefaultController))
+#13 /data/htdocs/stone/backend/modules/menu/controllers/DefaultController.php(109): yii\base\Controller->render('update', Array)
+#14 [internal function]: backend\modules\menu\controllers\DefaultController->actionUpdate('18')
+#15 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#17 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#18 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('menu/default/up...', Array)
+#19 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#21 {main}
+2014-12-02 14:11:51 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'menu/default/update'
+    'id' => '18'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=menu%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50235'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=menu%2Fdefault%2Fupdate&id=18'
+    'REQUEST_URI' => '/admin.php?r=menu%2Fdefault%2Fupdate&id=18'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529511.653
+    'REQUEST_TIME' => 1417529511
+]
+2014-12-02 14:13:05 [127.0.0.1][1][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\modules\menu\models\Menu::title' in /data/htdocs/stone/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /data/htdocs/stone/vendor/yiisoft/yii2/db/BaseActiveRecord.php(246): yii\base\Component->__get('title')
+#1 /data/htdocs/stone/backend/modules/menu/views/default/update.php(18): yii\db\BaseActiveRecord->__get('title')
+#2 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(325): require('/data/htdocs/st...')
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/data/htdocs/st...', Array)
+#4 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/data/htdocs/st...', Array, Object(backend\modules\menu\controllers\DefaultController))
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('update', Array, Object(backend\modules\menu\controllers\DefaultController))
+#6 /data/htdocs/stone/backend/modules/menu/controllers/DefaultController.php(109): yii\base\Controller->render('update', Array)
+#7 [internal function]: backend\modules\menu\controllers\DefaultController->actionUpdate('18')
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#11 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('menu/default/up...', Array)
+#12 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#14 {main}
+2014-12-02 14:13:04 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'menu/default/update'
+    'id' => '18'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=menu%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50245'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=menu%2Fdefault%2Fupdate&id=18'
+    'REQUEST_URI' => '/admin.php?r=menu%2Fdefault%2Fupdate&id=18'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529584.552
+    'REQUEST_TIME' => 1417529584
+]
+2014-12-02 14:13:48 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/modules/menu/views/default/update.php:30
+    in /data/htdocs/stone/backend/modules/menu/controllers/DefaultController.php:109
+2014-12-02 14:13:48 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'menu/default/update'
+    'id' => '18'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=menu%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50251'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=menu%2Fdefault%2Fupdate&id=18'
+    'REQUEST_URI' => '/admin.php?r=menu%2Fdefault%2Fupdate&id=18'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529628.841
+    'REQUEST_TIME' => 1417529628
+]
+2014-12-02 14:14:05 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/ad/index.php:27
+    in /data/htdocs/stone/backend/controllers/AdController.php:42
+2014-12-02 14:14:05 [127.0.0.1][1][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'htmlspecialchars() expects parameter 1 to be string, array given' in /data/htdocs/stone/vendor/yiisoft/yii2/helpers/BaseHtml.php:96
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'htmlspecialchar...', '/data/htdocs/st...', 96, Array)
+#1 /data/htdocs/stone/vendor/yiisoft/yii2/helpers/BaseHtml.php(96): htmlspecialchars(Array, 11, 'UTF-8', true)
+#2 /data/htdocs/stone/vendor/yiisoft/yii2/helpers/BaseHtml.php(1631): yii\helpers\BaseHtml::encode(Array)
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/helpers/BaseHtml.php(132): yii\helpers\BaseHtml::renderTagAttributes(Array)
+#4 /data/htdocs/stone/vendor/yiisoft/yii2/helpers/BaseHtml.php(360): yii\helpers\BaseHtml::tag('a', '\xE5\x88\x9B\xE5\xBB\xBA', Array)
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/widgets/Breadcrumbs.php(164): yii\helpers\BaseHtml::a('\xE5\x88\x9B\xE5\xBB\xBA', Array, Array)
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/widgets/Breadcrumbs.php(139): yii\widgets\Breadcrumbs->renderItem(Array, '<li>{link}</li>...')
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Widget.php(96): yii\widgets\Breadcrumbs->run()
+#8 /data/htdocs/stone/backend/views/ad/index.php(27): yii\base\Widget::widget(Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(325): require('/data/htdocs/st...')
+#10 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/data/htdocs/st...', Array)
+#11 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/data/htdocs/st...', Array, Object(backend\controllers\AdController))
+#12 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('index', Array, Object(backend\controllers\AdController))
+#13 /data/htdocs/stone/backend/controllers/AdController.php(42): yii\base\Controller->render('index', Array)
+#14 [internal function]: backend\controllers\AdController->actionIndex()
+#15 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#17 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#18 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('ad/index', Array)
+#19 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#21 {main}
+2014-12-02 14:14:05 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'ad/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=menu%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50260'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=ad%2Findex'
+    'REQUEST_URI' => '/admin.php?r=ad%2Findex'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529645.469
+    'REQUEST_TIME' => 1417529645
+]
+2014-12-02 14:15:01 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/ad/index.php:31
+    in /data/htdocs/stone/backend/controllers/AdController.php:42
+2014-12-02 14:15:00 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'ad/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=menu%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50266'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=ad%2Findex'
+    'REQUEST_URI' => '/admin.php?r=ad%2Findex'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529700.274
+    'REQUEST_TIME' => 1417529700
+]
+2014-12-02 14:15:58 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/ad/index.php:26
+    in /data/htdocs/stone/backend/controllers/AdController.php:42
+2014-12-02 14:15:58 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'ad/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '78lamnj3rclqv8k08orm92uor0'
+    '_csrf' => 'c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s:32:\"Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=menu%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=78lamnj3rclqv8k08orm92uor0; _csrf=c74a0d4d253789ace2539fbe64f965d1c16ca663e69219df6a351eb93f842979s%3A32%3A%22Jg9XCtIuOdu9PxrV9wo5-eS5vOWepPea%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '50277'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=ad%2Findex'
+    'REQUEST_URI' => '/admin.php?r=ad%2Findex'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417529758.036
+    'REQUEST_TIME' => 1417529758
+]

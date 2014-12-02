@@ -5,12 +5,13 @@ use yii\helpers\Url;
 use yii\widgets\Breadcrumbs;
 /* @var $this yii\web\View */
 /* @var $model backend\modules\menu\models\Menu */
+//
 
-$this->title = Html::a($model->name, ['view', 'id' => $model->id]);
-$this->params['breadcrumbs'] = [
-	['label' => '列表', 'url' => ['index'],'options' => ['class' => 'btn btn-success btn-minier']],
-	'编辑'
-];
+$this->title = Yii::t('app', ' ', [
+        'modelClass' => 'Menu',
+    ]) . ' ' . $model->name;
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Menu'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = Yii::t('app', '更 新');
 
 ?>
 <div class="breadcrumbs" id="breadcrumbs">

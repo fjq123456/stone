@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <ul class="breadcrumb">
         <li>
-            <?= Html::a('创建菜单', ['create'], ['class' => 'btn btn-success btn-minier']) ?>
+            <?= Html::a('创建菜单', ['create'], ['class' => 'btn btn-success btn-xs']) ?>
         </li>
     </ul><!-- /.breadcrumb -->
     <!-- /section:basics/content.searchbox -->
@@ -52,10 +52,10 @@ $this->params['breadcrumbs'][] = $this->title;
                             <td><?=date('Y/m/d',$v['created_at'])?></td>
                             <td> 
                                 <?= Html::a('编辑', ['update', 'id' => $v['id']],
-                                    ['class' => 'btn btn-info btn-minier']
+                                    ['class' => 'btn btn-info btn-xs']
                                 ) ?> 
                                 <?= Html::a('删除', ['delete', 'id' => $v['id']], [
-                                        'class' => 'btn btn-danger btn-minier',
+                                        'class' => 'btn btn-danger btn-xs',
                                         'data' => [
                                             'confirm' => '确定要删除此菜单吗?',
                                             'method' => 'post',
