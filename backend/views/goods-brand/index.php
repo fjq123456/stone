@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\Breadcrumbs;
 use yii\grid\GridView;
-
+use common\models\Attachment;
 /* @var $this yii\web\View */
 /* @var $searchModel common\models\search\SearchBrand */
 /* @var $dataProvider yii\data\ActiveDataProvider */
@@ -61,7 +61,13 @@ echo Breadcrumbs::widget([
             'categorystr',
             'name_cn',
             'name_en',
-            'logo:image',
+            [
+                'label' => 'logo',
+                'value' => function ($data) {
+                    return Attachment::getUrl($data->logo, 'small');
+                },
+                'format' => ['image']
+            ],
             'url:url',
             'statustext',
             'created_at:date',

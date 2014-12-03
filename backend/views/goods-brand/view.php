@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 use yii\widgets\DetailView;
-
+use common\models\Attachment;
 /* @var $this yii\web\View */
 /* @var $model common\models\GoodsBrand */
 
@@ -44,7 +44,11 @@ echo Breadcrumbs::widget([
             'categorystr',
             'name_cn',
             'name_en',
-            'logo:image',
+            [                    // the owner name of the model
+                'label' => 'logo',
+                'value' => Attachment::getUrl($model->logo, 'small'),
+                'format' => 'image'
+            ],
             'intro:ntext',
             'url:url',
             'story:ntext',

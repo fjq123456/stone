@@ -10,6 +10,8 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\web\UploadedFile;
 use common\helpers\Upload;
+use common\models\Attachment;
+
 /**
  * GoodsBrandController implements the CRUD actions for GoodsBrand model.
  */
@@ -63,21 +65,14 @@ class GoodsBrandController extends Controller
     {
         $model = new GoodsBrand();
 
-
-
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-            $upload = UploadedFile::getInstance($model, 'logo');
-
-            $savePath = Yii::$app->params['savePath'];
-            $savePath .= date('/Y/m/d/') . $upload->name;
-            @mkdir(dirname($savePath), 0777, true);
-            $model->logo = $savePath;
-            if (($upload->saveAs($savePath)!==false) && $model->save() ) {
-                Upload::thumb($savePath);
-                Yii::$app->session->setFlash('success', 'Upload Success');
+            $upload = Upload::getInstance($model, 'logo');
+            $img = new Attachment;
+            $img->setInfo($upload, 'goods_brand_logo')->save();
+            $model->logo = $img->id;
+            if ( $model->save() ) {
                 return $this->redirect(['view', 'id' => $model->id]);
             }
-
         } else {
             return $this->render('create', [
                 'model' => $model,

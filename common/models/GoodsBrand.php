@@ -5,6 +5,7 @@ namespace common\models;
 use Yii;
 use common\models\CategoryGoods;
 use yii\behaviors\TimestampBehavior;
+use common\models\Attachment;
 /**
  * This is the model class for table "goods_brand".
  *
@@ -52,11 +53,12 @@ class GoodsBrand extends \yii\db\ActiveRecord
     {
         return [
             [['category_id', 'name_cn'], 'required'],
-            [['logo'],'file','extensions'=>['png']],
+            [['logo'],'file','extensions'=>['png', 'jpg']],
             [['id', 'category_id', 'status'], 'integer'],
             [['intro', 'story'], 'string'],
             [['name_cn', 'name_en'], 'string', 'max' => 100],
-            [['logo', 'url'], 'string', 'max' => 255]
+            [['url'], 'string', 'max' => 255],
+            [['logo'], 'safe']
         ];
     }
 
@@ -91,6 +93,7 @@ class GoodsBrand extends \yii\db\ActiveRecord
         $cate = $this->category;
         return $cate->name;
     }
+
 
     public function getStatusText()
     {

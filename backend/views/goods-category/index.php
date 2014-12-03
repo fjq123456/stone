@@ -12,9 +12,6 @@ use yii\grid\GridView;
 $this->title = Yii::t('app', '商品分类');
 $this->params['breadcrumbs'][] = $this->title;
 
-// $this->params['breadcrumbs'] = [
-//     ['label' => '创建', 'url' => ['create'],'options' => ['class' => 'btn btn-success btn-minier']],
-// ];
 ?>
 
 <div class="breadcrumbs" id="breadcrumbs">
@@ -62,10 +59,10 @@ echo Breadcrumbs::widget([
                             <td><?=date('Y/m/d',$v['created_at'])?></td>
                             <td> 
                                 <?= Html::a('编辑', ['update', 'id' => $v['id']],
-                                    ['class' => 'btn btn-info btn-minier']
+                                    ['class' => 'btn btn-info btn-xs']
                                 ) ?> 
                                 <?= Html::a('删除', ['delete', 'id' => $v['id']], [
-                                        'class' => 'btn btn-danger btn-minier',
+                                        'class' => 'btn btn-danger btn-xs',
                                         'data' => [
                                             'confirm' => '确定要删除此分类吗?',
                                             'method' => 'post',

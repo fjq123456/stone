@@ -10,6 +10,9 @@ return [
             'mini' => '150*250@crop',
             'small'=> '150*250'
         ],
+        'goods_brand_logo' => [
+            'small' => '88*50'
+        ],
         'logo' => [
             'small' => '200*100'
         ]
