@@ -8,7 +8,7 @@ use common\models\search\SearchBrand;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use yii\web\UploadedFile;
+//use yii\web\UploadedFile;
 use common\helpers\Upload;
 use common\models\Attachment;
 

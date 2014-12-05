@@ -80,11 +80,11 @@ class Attachment extends \yii\db\ActiveRecord
     {
         $savePath = Yii::$app->params['savePath'];
 
-        $filename = $upload->save();
+        $filename = $upload->save($res_name);
         $content = file_get_contents($filename);
         if (empty($content)) return false;
 
-        Upload::thumb($filename, $res_name); //缩略图
+//        Upload::thumb($filename, $res_name); //缩略图
 
         $filename = ltrim($filename, '/');
         $file = basename($filename);

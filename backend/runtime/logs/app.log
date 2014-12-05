@@ -32259,3 +32259,1461 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1417616524.426
     'REQUEST_TIME' => 1417616524
 ]
+2014-12-04 10:56:23 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/ad/index.php:26
+    in /data/htdocs/stone/backend/controllers/AdController.php:42
+2014-12-04 10:56:23 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'ad/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'bff8b7f44b419b05ae1a8d3386090869233d8f024ed02dbb752c01e53543d526s:32:\"MbpR_eln57DpR8QYhcM58VX_a_KTERsm\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=srbac%2Fdefault%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=bff8b7f44b419b05ae1a8d3386090869233d8f024ed02dbb752c01e53543d526s%3A32%3A%22MbpR_eln57DpR8QYhcM58VX_a_KTERsm%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '54581'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=ad%2Findex'
+    'REQUEST_URI' => '/admin.php?r=ad%2Findex'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417690583.023
+    'REQUEST_TIME' => 1417690583
+]
+2014-12-04 11:02:29 [127.0.0.1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to common\models\Attachment::setInfo() must be an instance of common\helpers\Upload, null given, called in /data/htdocs/stone/backend/controllers/UploadController.php on line 30 and defined' in /data/htdocs/stone/common/models/Attachment.php:79
+Stack trace:
+#0 /data/htdocs/stone/common/models/Attachment.php(79): yii\base\ErrorHandler->handleError(4096, 'Argument 1 pass...', '/data/htdocs/st...', 79, Array)
+#1 /data/htdocs/stone/backend/controllers/UploadController.php(30): common\models\Attachment->setInfo(NULL, 'goods_brand_log...')
+#2 [internal function]: backend\controllers\UploadController->actionWebUpload()
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('web-upload', Array)
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('upload/web-uplo...', Array)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#9 {main}
+2014-12-04 11:02:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'upload/web-upload'
+]
+
+$_POST = [
+    '_csrf' => 'RFk4MkxsLkcJO0hgEwlCKXFufEIeVH8eLDp1B3Q6dhglBnNmCT5dKg=='
+    'id' => 'WU_FILE_1'
+    'name' => '4.jpg'
+    'type' => 'image/jpeg'
+    'lastModifiedDate' => 'Tue Nov 18 2014 09:31:58 GMT+0800 (CST)'
+    'size' => '106528'
+]
+
+$_FILES = [
+    'file' => [
+        'name' => '4.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => '/private/var/tmp/phpRHRdPh'
+        'error' => 0
+        'size' => 106528
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'bff8b7f44b419b05ae1a8d3386090869233d8f024ed02dbb752c01e53543d526s:32:\"MbpR_eln57DpR8QYhcM58VX_a_KTERsm\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '107389'
+    'HTTP_ORIGIN' => 'http://local.stone.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryQCnORBFRlLDqunob'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=site/test'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=bff8b7f44b419b05ae1a8d3386090869233d8f024ed02dbb752c01e53543d526s%3A32%3A%22MbpR_eln57DpR8QYhcM58VX_a_KTERsm%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '54611'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=upload%2Fweb-upload'
+    'REQUEST_URI' => '/admin.php?r=upload%2Fweb-upload'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417690949.412
+    'REQUEST_TIME' => 1417690949
+]
+2014-12-04 11:02:29 [127.0.0.1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to common\models\Attachment::setInfo() must be an instance of common\helpers\Upload, null given, called in /data/htdocs/stone/backend/controllers/UploadController.php on line 30 and defined' in /data/htdocs/stone/common/models/Attachment.php:79
+Stack trace:
+#0 /data/htdocs/stone/common/models/Attachment.php(79): yii\base\ErrorHandler->handleError(4096, 'Argument 1 pass...', '/data/htdocs/st...', 79, Array)
+#1 /data/htdocs/stone/backend/controllers/UploadController.php(30): common\models\Attachment->setInfo(NULL, 'goods_brand_log...')
+#2 [internal function]: backend\controllers\UploadController->actionWebUpload()
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('web-upload', Array)
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('upload/web-uplo...', Array)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#9 {main}
+2014-12-04 11:02:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'upload/web-upload'
+]
+
+$_POST = [
+    '_csrf' => 'RFk4MkxsLkcJO0hgEwlCKXFufEIeVH8eLDp1B3Q6dhglBnNmCT5dKg=='
+    'id' => 'WU_FILE_0'
+    'name' => '3.jpg'
+    'type' => 'image/jpeg'
+    'lastModifiedDate' => 'Tue Nov 18 2014 09:31:48 GMT+0800 (CST)'
+    'size' => '119842'
+]
+
+$_FILES = [
+    'file' => [
+        'name' => '3.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => '/private/var/tmp/php7piskr'
+        'error' => 0
+        'size' => 119842
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'bff8b7f44b419b05ae1a8d3386090869233d8f024ed02dbb752c01e53543d526s:32:\"MbpR_eln57DpR8QYhcM58VX_a_KTERsm\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '120703'
+    'HTTP_ORIGIN' => 'http://local.stone.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary11lAIm799BWbMz3h'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=site/test'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=bff8b7f44b419b05ae1a8d3386090869233d8f024ed02dbb752c01e53543d526s%3A32%3A%22MbpR_eln57DpR8QYhcM58VX_a_KTERsm%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '54610'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=upload%2Fweb-upload'
+    'REQUEST_URI' => '/admin.php?r=upload%2Fweb-upload'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417690949.269
+    'REQUEST_TIME' => 1417690949
+]
+2014-12-04 11:06:01 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/goods-brand/index.php:25
+    in /data/htdocs/stone/backend/controllers/GoodsBrandController.php:44
+2014-12-04 11:06:01 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'goods-brand'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '54644'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=goods-brand'
+    'REQUEST_URI' => '/admin.php?r=goods-brand'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417691161.414
+    'REQUEST_TIME' => 1417691161
+]
+2014-12-04 11:06:04 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/goods-brand/create.php:22
+    in /data/htdocs/stone/backend/controllers/GoodsBrandController.php:79
+2014-12-04 11:06:04 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'goods-brand/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=goods-brand'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '54646'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=goods-brand%2Fcreate'
+    'REQUEST_URI' => '/admin.php?r=goods-brand%2Fcreate'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417691164.642
+    'REQUEST_TIME' => 1417691164
+]
+2014-12-04 11:23:48 [127.0.0.1][1][usu2bk17v8lg1rcspnanjnchb5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\helpers\Files' not found' in /data/htdocs/stone/backend/modules/srbac/controllers/DefaultController.php:174
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-04 11:23:48 [127.0.0.1][1][usu2bk17v8lg1rcspnanjnchb5][info][application] $_GET = [
+    'r' => 'srbac/default'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55000'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=srbac/default'
+    'REQUEST_URI' => '/admin.php?r=srbac/default'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417692228.249
+    'REQUEST_TIME' => 1417692228
+]
+2014-12-04 11:24:38 [127.0.0.1][1][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'backend\modules\srbac\helpers\Files' in file: /data/htdocs/stone/backend/modules/srbac/helpers/Files.php. Namespace missing?' in /data/htdocs/stone/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\modules...')
+#1 /data/htdocs/stone/backend/modules/srbac/controllers/DefaultController.php(174): spl_autoload_call('backend\\modules...')
+#2 /data/htdocs/stone/backend/modules/srbac/controllers/DefaultController.php(130): backend\modules\srbac\controllers\DefaultController->_getMethods()
+#3 /data/htdocs/stone/backend/modules/srbac/controllers/DefaultController.php(22): backend\modules\srbac\controllers\DefaultController->_getBasePermission()
+#4 [internal function]: backend\modules\srbac\controllers\DefaultController->actionIndex()
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('srbac/default', Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#11 {main}
+2014-12-04 11:24:38 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'srbac/default'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55007'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=srbac/default'
+    'REQUEST_URI' => '/admin.php?r=srbac/default'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417692278.651
+    'REQUEST_TIME' => 1417692278
+]
+2014-12-04 11:25:17 [127.0.0.1][1][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'backend\modules\srbac\helpers\Files' in file: /data/htdocs/stone/backend/modules/srbac/helpers/Files.php. Namespace missing?' in /data/htdocs/stone/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\modules...')
+#1 /data/htdocs/stone/backend/modules/srbac/controllers/DefaultController.php(174): spl_autoload_call('backend\\modules...')
+#2 /data/htdocs/stone/backend/modules/srbac/controllers/DefaultController.php(130): backend\modules\srbac\controllers\DefaultController->_getMethods()
+#3 /data/htdocs/stone/backend/modules/srbac/controllers/DefaultController.php(22): backend\modules\srbac\controllers\DefaultController->_getBasePermission()
+#4 [internal function]: backend\modules\srbac\controllers\DefaultController->actionIndex()
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('srbac/default', Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#11 {main}
+2014-12-04 11:25:17 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'srbac/default'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55019'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=srbac/default'
+    'REQUEST_URI' => '/admin.php?r=srbac/default'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417692317.848
+    'REQUEST_TIME' => 1417692317
+]
+2014-12-04 11:25:19 [127.0.0.1][1][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'backend\modules\srbac\helpers\Files' in file: /data/htdocs/stone/backend/modules/srbac/helpers/Files.php. Namespace missing?' in /data/htdocs/stone/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\modules...')
+#1 /data/htdocs/stone/backend/modules/srbac/controllers/DefaultController.php(174): spl_autoload_call('backend\\modules...')
+#2 /data/htdocs/stone/backend/modules/srbac/controllers/DefaultController.php(130): backend\modules\srbac\controllers\DefaultController->_getMethods()
+#3 /data/htdocs/stone/backend/modules/srbac/controllers/DefaultController.php(22): backend\modules\srbac\controllers\DefaultController->_getBasePermission()
+#4 [internal function]: backend\modules\srbac\controllers\DefaultController->actionIndex()
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('srbac/default', Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#11 {main}
+2014-12-04 11:25:19 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'srbac/default'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55020'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=srbac/default'
+    'REQUEST_URI' => '/admin.php?r=srbac/default'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417692319.091
+    'REQUEST_TIME' => 1417692319
+]
+2014-12-04 11:25:19 [127.0.0.1][1][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'backend\modules\srbac\helpers\Files' in file: /data/htdocs/stone/backend/modules/srbac/helpers/Files.php. Namespace missing?' in /data/htdocs/stone/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\modules...')
+#1 /data/htdocs/stone/backend/modules/srbac/controllers/DefaultController.php(174): spl_autoload_call('backend\\modules...')
+#2 /data/htdocs/stone/backend/modules/srbac/controllers/DefaultController.php(130): backend\modules\srbac\controllers\DefaultController->_getMethods()
+#3 /data/htdocs/stone/backend/modules/srbac/controllers/DefaultController.php(22): backend\modules\srbac\controllers\DefaultController->_getBasePermission()
+#4 [internal function]: backend\modules\srbac\controllers\DefaultController->actionIndex()
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('srbac/default', Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#11 {main}
+2014-12-04 11:25:19 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'srbac/default'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55021'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=srbac/default'
+    'REQUEST_URI' => '/admin.php?r=srbac/default'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417692319.765
+    'REQUEST_TIME' => 1417692319
+]
+2014-12-04 11:54:03 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh_CN/yii.php Fallback file does not exist as well: /data/htdocs/stone/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /data/htdocs/stone/backend/views/goods-brand/create.php:22
+    in /data/htdocs/stone/backend/controllers/GoodsBrandController.php:79
+2014-12-04 11:54:02 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'goods-brand/create'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=goods-brand'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55157'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=goods-brand%2Fcreate'
+    'REQUEST_URI' => '/admin.php?r=goods-brand%2Fcreate'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417694042.429
+    'REQUEST_TIME' => 1417694042
+]
+2014-12-04 12:23:31 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot use common\helpers\Upload as Upload because the name is already in use' in /data/htdocs/stone/backend/controllers/UploadController.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-04 12:23:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'upload/web-upload'
+]
+
+$_POST = [
+    '_csrf' => 'ZnZrYndMNGUxJAIEBy5GBB4QIlQnFFlcNzojGAY2bgYzISEyI3kMBg=='
+    'res_name' => 'goods_brand_logo'
+    'id' => 'WU_FILE_0'
+    'name' => '4.jpg'
+    'type' => 'image/jpeg'
+    'lastModifiedDate' => 'Tue Nov 18 2014 09:31:58 GMT+0800 (CST)'
+    'size' => '106528'
+]
+
+$_FILES = [
+    'GoodsBrand' => [
+        'name' => [
+            'logo' => '4.jpg'
+        ]
+        'type' => [
+            'logo' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'logo' => '/private/var/tmp/phpQBOoPl'
+        ]
+        'error' => [
+            'logo' => 0
+        ]
+        'size' => [
+            'logo' => 106528
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '107512'
+    'HTTP_ORIGIN' => 'http://local.stone.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryzJ2UBZ38PrL5agt1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=site/test'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55279'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=upload%2Fweb-upload'
+    'REQUEST_URI' => '/admin.php?r=upload%2Fweb-upload'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417695811.407
+    'REQUEST_TIME' => 1417695811
+]
+2014-12-04 12:24:11 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\Yii' not found' in /data/htdocs/stone/backend/controllers/UploadController.php:28
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-04 12:24:11 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'upload/web-upload'
+]
+
+$_POST = [
+    '_csrf' => 'U0VMeG8xREcEFyUeH1M2JisjBU4/aSl.AgkEAh5LHiQGEgYoOwR8JA=='
+    'res_name' => 'goods_brand_logo'
+    'id' => 'WU_FILE_0'
+    'name' => '4.jpg'
+    'type' => 'image/jpeg'
+    'lastModifiedDate' => 'Tue Nov 18 2014 09:31:58 GMT+0800 (CST)'
+    'size' => '106528'
+]
+
+$_FILES = [
+    'GoodsBrand' => [
+        'name' => [
+            'logo' => '4.jpg'
+        ]
+        'type' => [
+            'logo' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'logo' => '/private/var/tmp/phphN2J5P'
+        ]
+        'error' => [
+            'logo' => 0
+        ]
+        'size' => [
+            'logo' => 106528
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '107512'
+    'HTTP_ORIGIN' => 'http://local.stone.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryKQIYbDrt5tlkgsSW'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=site/test'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55288'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=upload%2Fweb-upload'
+    'REQUEST_URI' => '/admin.php?r=upload%2Fweb-upload'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417695851.19
+    'REQUEST_TIME' => 1417695851
+]
+2014-12-04 12:24:32 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\controllers\UploadController::name' in /data/htdocs/stone/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /data/htdocs/stone/common/helpers/Upload.php(62): yii\base\Component->__get('name')
+#1 /data/htdocs/stone/backend/controllers/UploadController.php(35): common\helpers\Upload->save('goods_brand_log...')
+#2 [internal function]: backend\controllers\UploadController->actionWebUpload(false)
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('web-upload', Array)
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('upload/web-uplo...', Array)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#9 {main}
+2014-12-04 12:24:32 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'upload/web-upload'
+]
+
+$_POST = [
+    '_csrf' => 'VHJGQkt3bkgDIC8kOxUcKSwUD3QbLwNxBT4OODoNNCsBJQwSH0JWKw=='
+    'res_name' => 'goods_brand_logo'
+    'id' => 'WU_FILE_0'
+    'name' => '4.jpg'
+    'type' => 'image/jpeg'
+    'lastModifiedDate' => 'Tue Nov 18 2014 09:31:58 GMT+0800 (CST)'
+    'size' => '106528'
+]
+
+$_FILES = [
+    'GoodsBrand' => [
+        'name' => [
+            'logo' => '4.jpg'
+        ]
+        'type' => [
+            'logo' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'logo' => '/private/var/tmp/phpyhqvDw'
+        ]
+        'error' => [
+            'logo' => 0
+        ]
+        'size' => [
+            'logo' => 106528
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '107512'
+    'HTTP_ORIGIN' => 'http://local.stone.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarynXozWdN0SzTd3AW1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=site/test'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55295'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=upload%2Fweb-upload'
+    'REQUEST_URI' => '/admin.php?r=upload%2Fweb-upload'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417695872.097
+    'REQUEST_TIME' => 1417695872
+]
+2014-12-04 12:25:27 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\controllers\UploadController::name' in /data/htdocs/stone/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /data/htdocs/stone/common/helpers/Upload.php(62): yii\base\Component->__get('name')
+#1 /data/htdocs/stone/backend/controllers/UploadController.php(36): common\helpers\Upload->save('goods_brand_log...')
+#2 [internal function]: backend\controllers\UploadController->actionWebUpload()
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('web-upload', Array)
+#6 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('upload/web-uplo...', Array)
+#7 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#9 {main}
+2014-12-04 12:25:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'upload/web-upload'
+]
+
+$_POST = [
+    '_csrf' => 'Q19mUDNGeTIUDQ82QyQLUzs5L2ZjHhQLEhMuKkI8I1EWCCwAZ3NBUQ=='
+    'res_name' => 'goods_brand_logo'
+    'id' => 'WU_FILE_0'
+    'name' => '4.jpg'
+    'type' => 'image/jpeg'
+    'lastModifiedDate' => 'Tue Nov 18 2014 09:31:58 GMT+0800 (CST)'
+    'size' => '106528'
+]
+
+$_FILES = [
+    'GoodsBrand' => [
+        'name' => [
+            'logo' => '4.jpg'
+        ]
+        'type' => [
+            'logo' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'logo' => '/private/var/tmp/php3uujlA'
+        ]
+        'error' => [
+            'logo' => 0
+        ]
+        'size' => [
+            'logo' => 106528
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '107512'
+    'HTTP_ORIGIN' => 'http://local.stone.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary3wEvPuQGj8n2E39c'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://local.stone.com/admin.php?r=site/test'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55308'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=upload%2Fweb-upload'
+    'REQUEST_URI' => '/admin.php?r=upload%2Fweb-upload'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417695927.308
+    'REQUEST_TIME' => 1417695927
+]
+2014-12-04 12:43:31 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\GoodsBrand' not found' in /data/htdocs/stone/backend/controllers/SiteController.php:97
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-04 12:43:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55436'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/test'
+    'REQUEST_URI' => '/admin.php?r=site/test'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417697009.922
+    'REQUEST_TIME' => 1417697009
+]
+2014-12-04 12:43:56 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'ActiveForm' not found' in /data/htdocs/stone/backend/views/site/test.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-04 12:43:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55439'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/test'
+    'REQUEST_URI' => '/admin.php?r=site/test'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417697036.297
+    'REQUEST_TIME' => 1417697036
+]
+2014-12-04 12:44:27 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'ActiveForm' not found' in /data/htdocs/stone/backend/views/site/test.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-04 12:44:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55440'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/test'
+    'REQUEST_URI' => '/admin.php?r=site/test'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417697067.494
+    'REQUEST_TIME' => 1417697067
+]
+2014-12-04 12:44:29 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'ActiveForm' not found' in /data/htdocs/stone/backend/views/site/test.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-04 12:44:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55441'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/test'
+    'REQUEST_URI' => '/admin.php?r=site/test'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417697069.118
+    'REQUEST_TIME' => 1417697069
+]
+2014-12-04 12:44:42 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'ActiveForm' not found' in /data/htdocs/stone/backend/views/site/test.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-04 12:44:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55442'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/test'
+    'REQUEST_URI' => '/admin.php?r=site/test'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417697082.158
+    'REQUEST_TIME' => 1417697082
+]
+2014-12-04 12:44:44 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'ActiveForm' not found' in /data/htdocs/stone/backend/views/site/test.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-04 12:44:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55443'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/test'
+    'REQUEST_URI' => '/admin.php?r=site/test'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417697083.99
+    'REQUEST_TIME' => 1417697083
+]
+2014-12-04 12:45:26 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\widgets\ActiveField::multipleFileInput()' in /data/htdocs/stone/vendor/yiisoft/yii2/base/Component.php:282
+Stack trace:
+#0 /data/htdocs/stone/backend/views/site/test.php(23): yii\base\Component->__call('multipleFileInp...', Array)
+#1 /data/htdocs/stone/backend/views/site/test.php(23): yii\widgets\ActiveField->multipleFileInput()
+#2 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(325): require('/data/htdocs/st...')
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/data/htdocs/st...', Array)
+#4 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/data/htdocs/st...', Array, Object(backend\controllers\SiteController))
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('test', Array, Object(backend\controllers\SiteController))
+#6 /data/htdocs/stone/backend/controllers/SiteController.php(98): yii\base\Controller->render('test', Array)
+#7 [internal function]: backend\controllers\SiteController->actionTest()
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('test', Array)
+#11 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/test', Array)
+#12 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#14 {main}
+2014-12-04 12:45:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55446'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/test'
+    'REQUEST_URI' => '/admin.php?r=site/test'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417697124.885
+    'REQUEST_TIME' => 1417697124
+]
+2014-12-04 12:46:21 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\widgets\ActiveForm' not found' in /data/htdocs/stone/common/widgets/EForm.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-04 12:46:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55453'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/test'
+    'REQUEST_URI' => '/admin.php?r=site/test'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417697181.461
+    'REQUEST_TIME' => 1417697181
+]
+2014-12-04 12:47:11 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\widgets\ActiveForm' not found' in /data/htdocs/stone/common/widgets/EForm.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-04 12:47:11 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55457'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/test'
+    'REQUEST_URI' => '/admin.php?r=site/test'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417697231.104
+    'REQUEST_TIME' => 1417697231
+]
+2014-12-04 12:47:28 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\widgets\ActiveField::multipleFileInput()' in /data/htdocs/stone/vendor/yiisoft/yii2/base/Component.php:282
+Stack trace:
+#0 /data/htdocs/stone/backend/views/site/test.php(23): yii\base\Component->__call('multipleFileInp...', Array)
+#1 /data/htdocs/stone/backend/views/site/test.php(23): yii\widgets\ActiveField->multipleFileInput()
+#2 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(325): require('/data/htdocs/st...')
+#3 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/data/htdocs/st...', Array)
+#4 /data/htdocs/stone/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/data/htdocs/st...', Array, Object(backend\controllers\SiteController))
+#5 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('test', Array, Object(backend\controllers\SiteController))
+#6 /data/htdocs/stone/backend/controllers/SiteController.php(98): yii\base\Controller->render('test', Array)
+#7 [internal function]: backend\controllers\SiteController->actionTest()
+#8 /data/htdocs/stone/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /data/htdocs/stone/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 /data/htdocs/stone/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('test', Array)
+#11 /data/htdocs/stone/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/test', Array)
+#12 /data/htdocs/stone/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /data/htdocs/stone/web/admin.php(19): yii\base\Application->run()
+#14 {main}
+2014-12-04 12:47:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55458'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/test'
+    'REQUEST_URI' => '/admin.php?r=site/test'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417697248.61
+    'REQUEST_TIME' => 1417697248
+]
+2014-12-04 12:48:54 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\widgets\ActiveField' not found' in /data/htdocs/stone/common/widgets/EField.php:26
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-04 12:48:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'usu2bk17v8lg1rcspnanjnchb5'
+    '_csrf' => 'ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s:32:\"WRifpbraxfI6PXm9QLHzqzZcUWJPT58c\";'
+    '_identity' => '746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s:46:\"[1,\"p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.stone.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=usu2bk17v8lg1rcspnanjnchb5; _csrf=ef296c59445efd0d906c5c730c3f72f359712811497914e91b2aa9deb73fe2b9s%3A32%3A%22WRifpbraxfI6PXm9QLHzqzZcUWJPT58c%22%3B; _identity=746bfc6535e3d532491cd7ee0bfb48bebd0525f075c447c16694ecdbacbee277s%3A46%3A%22%5B1%2C%22p-XTJUecwydy6DZ1GqCj-5bwx2F1j6PJ%22%2C2592000%5D%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.26 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.26 OpenSSL/0.9.8za'
+    'SERVER_NAME' => 'local.stone.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/data/htdocs/stone/web'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => '/data/htdocs/stone/web/admin.php'
+    'REMOTE_PORT' => '55464'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/test'
+    'REQUEST_URI' => '/admin.php?r=site/test'
+    'SCRIPT_NAME' => '/admin.php'
+    'PHP_SELF' => '/admin.php'
+    'REQUEST_TIME_FLOAT' => 1417697333.745
+    'REQUEST_TIME' => 1417697333
+]

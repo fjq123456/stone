@@ -1,6 +1,6 @@
 <?php
 
-namespace common\helpers;
+namespace backend\modules\srbac\helpers;
 
 use Yii;
 

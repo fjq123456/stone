@@ -1,5 +1,6 @@
 <?php
 use yii\helpers\Url;
+use common\widgets\EForm;
 ?>
 
 <!--引入CSS-->
@@ -15,7 +16,6 @@ use yii\helpers\Url;
     <div id="filePicker">选择图片</div>
 </div>
 
-
 <div class="urls hidden">
     <a href="<?=Url::toRoute('/upload/web-upload');?>" class="web-upload"></a>
 </div>
@@ -25,7 +25,7 @@ use yii\helpers\Url;
     var csrf = $('meta[name=csrf-token]').attr('content');
     // 初始化Web Uploader
     var uploader = WebUploader.create({
-
+        fileVal : 'GoodsBrand[logo]',
         // 选完文件后，是否自动上传。
         auto: true,
 
@@ -40,6 +40,8 @@ use yii\helpers\Url;
         pick: '#filePicker',
         formData:{
             '_csrf' : csrf,
+            'res_name' : 'article'
+//            'db' : true
         },
         // 只允许选择图片文件。
         accept: {

@@ -7,7 +7,7 @@ use yii\web\Controller;
 // use backend\components\BaseController;
 use common\models\LoginForm;
 use yii\filters\VerbFilter;
-
+use common\models\GoodsBrand;
 /**
  * Site controller
  */
@@ -81,6 +81,7 @@ class SiteController extends Controller
             ]);
         }
     }
+
     /**
      * 登出
      */
@@ -93,6 +94,7 @@ class SiteController extends Controller
 
     public function actionTest()
     {
-        return $this->render('test');
+        $model = new GoodsBrand();
+        return $this->render('test', ['model'=>$model]);
     }
 }

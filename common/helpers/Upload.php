@@ -40,6 +40,7 @@ class Upload extends UploadedFile{
             $method = isset($arr[1]) ? $arr[1] : 'resize_crop';
             $img->$method($size[0], $size[1])->save($savePath . '/' . $k. '_' . basename($filename));
         }
+        return true;
     }
 
     /**
@@ -55,7 +56,8 @@ class Upload extends UploadedFile{
     }
 
 
-    public function save($filename=''){
+    //saveAs的子类实现
+    public function save($res_name, $filename=''){
         $uploadDir = Yii::$app->params['savePath'];
 
         $ext = substr($this->name, strrpos($this->name, '.'));
@@ -67,7 +69,8 @@ class Upload extends UploadedFile{
             @mkdir(dirname($filename), 0777, true) or die(dirname($filename) . ' 目录没有写入权限');
         }
 
-        if (parent::saveAs($filename))
+        if (parent::saveAs($filename) && self::thumb($filename, $res_name))
             return $filename;
+        return 'a';
     }
 } 

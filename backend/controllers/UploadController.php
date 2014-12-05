@@ -14,12 +14,26 @@
 
 namespace backend\controllers;
 
+use Yii;
 use yii\web\Controller;
-
+use common\helpers\Upload;
+use common\models\Attachment;
+use common\models\GoodsBrand;
 class UploadController extends Controller{
 
     public function actionWebUpload()
     {
-        p('ssss');die;
+
+        $model = new GoodsBrand();
+        $upload = Upload::getInstance($model, 'logo');
+        $res_name = Yii::$app->request->post('res_name');
+        $db = Yii::$app->request->post('db');
+        if ($db) {
+            $img = new Attachment;
+            $img->setInfo($upload, $res_name)->save();
+            return $img->id;
+        } else {
+            return $upload->save($res_name);
+        }
     }
 } 
